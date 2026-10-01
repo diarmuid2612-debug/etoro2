@@ -35,6 +35,20 @@ Before any trade, show: entry price, stop-loss and its chart reason, target
 (take-profit), loss if stopped, gain if the target is hit, leverage, and position
 size. Nothing is placed or changed without the account holder's explicit yes.
 
+## Entry: wait for the retest
+
+- Do not chase breakouts. After a confirmed breakout (or breakdown), wait for price to
+  come back to the level it broke: the old ceiling for a buy, the old floor for a
+  short.
+- Enter only when that level holds: price touches the retest zone and is rejected
+  from it (bounces off support for a buy, turns down from resistance for a short).
+  Prefer a daily close that confirms the rejection.
+- The stop then goes just beyond the retest zone and the latest swing point, which
+  is much closer than a stop placed after a chased breakout.
+- If a breakout never comes back to retest, skip it and move on. Missing a trade is
+  acceptable; a poor entry is not.
+- Use price alerts on retest zones so the moment is not missed.
+
 ## Breakout checklist
 
 - Breakout confirmed by a **daily close** beyond the level, not just an intraday move.
