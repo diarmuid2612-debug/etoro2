@@ -39,7 +39,7 @@ size. Nothing is placed or changed without the account holder's explicit yes.
 
 - These rules apply to trades. Positions the account holder has designated as
   long-term holdings are exempt from the stop-loss rules above.
-- Current long-term holdings: SUI and HYPE.
+- Current long-term holdings: SUI, HYPE and PUMP.
 - Do not add, move or remove stops on long-term holdings, and do not keep suggesting
   them. Leave any existing stops on them as they are unless asked.
 - Later in the cycle, when asked, set wide stops below major support on the weekly
