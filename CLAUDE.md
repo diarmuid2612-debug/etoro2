@@ -3,6 +3,8 @@
 These rules apply to every trade proposed or placed from this repo, on real or demo
 accounts. Read them before suggesting any trade or changing any stop-loss.
 
+Longer-term ideas to watch are in `FUTURE_SETUPS.md`. Check their triggers during scans.
+
 ## 1. The chart sets the stop
 
 - Before any trade, read the daily chart and find the relevant structure:
