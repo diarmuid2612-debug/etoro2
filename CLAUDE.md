@@ -35,6 +35,16 @@ Before any trade, show: entry price, stop-loss and its chart reason, target
 (take-profit), loss if stopped, gain if the target is hit, leverage, and position
 size. Nothing is placed or changed without the account holder's explicit yes.
 
+## Long-term holdings are exempt
+
+- These rules apply to trades. Positions the account holder has designated as
+  long-term holdings are exempt from the stop-loss rules above.
+- Current long-term holdings: SUI and HYPE.
+- Do not add, move or remove stops on long-term holdings, and do not keep suggesting
+  them. Leave any existing stops on them as they are unless asked.
+- Later in the cycle, when asked, set wide stops below major support on the weekly
+  chart to protect profits.
+
 ## Entry: wait for the retest
 
 - Do not chase breakouts. After a confirmed breakout (or breakdown), wait for price to
