@@ -41,9 +41,13 @@ size. Nothing is placed or changed without the account holder's explicit yes.
 
 - These rules apply to trades. Positions the account holder has designated as
   long-term holdings are exempt from the stop-loss rules above.
-- Current long-term holdings: SUI, HYPE, PUMP, AR and HNT.
+- Current long-term holdings: SUI, HYPE, PUMP, AR, HNT and ELIZAOS.
 - AR and HNT were bought with structural stops (AR $3.85, HNT $0.435). Keep them as
   set unless the account holder asks to change them.
+- ELIZAOS is a small speculative holding with no stop. Adding more is only
+  considered if it shows strength: a higher base at 0.00030–0.00035, or a daily close
+  above 0.00057 followed by a retest that holds. Funding it may mean selling
+  something else.
 - Do not add, move or remove stops on long-term holdings, and do not keep suggesting
   them. Leave any existing stops on them as they are unless asked.
 - Later in the cycle, when asked, set wide stops below major support on the weekly
