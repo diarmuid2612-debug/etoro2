@@ -80,3 +80,15 @@ size. Nothing is placed or changed without the account holder's explicit yes.
 - Avoid entering just before scheduled events that cause gaps (earnings, central bank
   decisions, major data releases).
 - Leveraged trades: aim for at least 2:1 reward to risk, using the structural stop.
+
+## Checking the news behind a move
+
+When a holding or a candidate moves sharply, find the reason before judging it:
+
+- Search the founder and team names, partners and related projects for the last few
+  days, not only the ticker or token name. Catalysts often never mention the ticker.
+- Ask what changed this week, even after finding a big older story. An old story
+  (e.g. a token declared dead) does not explain a new move.
+- Check the "why is the price up/down" explanations on CoinMarketCap and CoinGecko.
+- Say plainly when the search was limited (only snippets read, sites blocked, X not
+  checked) instead of saying there is no news.
