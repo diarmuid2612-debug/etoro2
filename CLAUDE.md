@@ -44,10 +44,11 @@ size. Nothing is placed or changed without the account holder's explicit yes.
 - Current long-term holdings: SUI, HYPE, PUMP, AR, HNT and ELIZAOS.
 - AR and HNT were bought with structural stops (AR $3.85, HNT $0.435). Keep them as
   set unless the account holder asks to change them.
-- ELIZAOS (three positions, about $300 invested, average entry about 0.000476) has
-  stops at 0.00049 on all three, set at the account holder's request on 7 Oct 2026.
-  The level is structural: below the 7 Oct retest low (0.00051) and the 0.00055–0.00057
-  breakout zone. If hit, roughly the full investment comes back. Raise the stops only
+- ELIZAOS: on 8 Oct 2026 the two positions added on 6 Oct were closed for about +$127
+  profit (more than the full ~$300 put into ELIZAOS came back). One position remains:
+  205,021 units, entry 0.000478, $98 invested, stop 0.00049 (set 7 Oct at the account
+  holder's request; structural, below the 7 Oct retest low of 0.00051 and the
+  0.00055–0.00057 breakout zone). It is now a free ride on profit. Raise the stop only
   under new higher lows, and only when the account holder asks. The founder
   declared the token "dead" in August 2026 (foundation wound down, treasury spent, no
   buybacks, no link to the Eliza software), so a strong chart alone is not a reason to
