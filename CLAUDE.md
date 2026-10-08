@@ -109,6 +109,12 @@ profit taken on 8 Oct plus about $123 of the account holder's own money. **Intra
 budget: if the net intraday result reaches −$250, stop and review before any further
 intraday trade.** The weekly and daily limits below still apply.
 
+**Trading reserve:** keep at least $450 of free cash in the main account reserved for
+trading (set 8 Oct 2026). Long-term buys come only from new deposits or profits, never
+from the reserve. Before any long-term buy, check that free cash stays at or above $450
+afterwards; if not, say so before proposing it. Later (from a laptop) move this pot to a
+separate eToro "Regular" sub-account; positions cannot be moved, only cash.
+
 **Market:** Nasdaq 100 only.
 
 **Bias first:** before each session, read the daily and 4-hour charts. Trade only in the
