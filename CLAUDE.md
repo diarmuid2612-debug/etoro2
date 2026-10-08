@@ -96,3 +96,49 @@ When a holding or a candidate moves sharply, find the reason before judging it:
 - Check the "why is the price up/down" explanations on CoinMarketCap and CoinGecko.
 - Say plainly when the search was limited (only snippets read, sites blocked, X not
   checked) instead of saying there is no news.
+
+## Intraday model (demo phase)
+
+Short-term trading on the Nasdaq 100 (eToro NSDQ100), held for hours and closed the same
+day. It follows the rules above (structural stop, retest entry, size from the stop, full
+proposal and an explicit yes) with these additions. **Demo account only** until the
+proving rules at the end are met and the account holder agrees to go live.
+
+**Market:** Nasdaq 100 only.
+
+**Bias first:** before each session, read the daily and 4-hour charts. Trade only in the
+4-hour trend direction (higher highs and lows: buys only; lower highs and lows: sells
+only). No clear trend means no trade that day.
+
+**Mark levels before the session:** previous day's high and low, Asian session high and
+low (00:00–07:00 Irish time), previous week's high and low.
+
+**Two setups only:**
+- **A. Sweep and reversal:** price trades beyond a marked level, then a 15-minute candle
+  closes back inside it, then price breaks the last 15-minute swing the other way. Enter
+  on the retest of that broken swing. Stop beyond the tip of the sweep. Target the other
+  side of the range or the next marked level.
+- **B. Breakout and retest:** a 1-hour close beyond a marked level in the bias direction.
+  Enter when the retest holds. Stop beyond the retest zone and the latest swing.
+
+**When:** London (08:00–11:00) or New York (14:30–17:00), Irish time. No new trades from
+30 minutes before to 30 minutes after high-impact US news (CPI, jobs report, Fed
+decisions, weekly jobless claims). Close every intraday position by 21:00 Irish time; never
+hold overnight.
+
+**Risk limits:**
+- Maximum $20 risk per trade.
+- Maximum 2 trades a day. Stop for the day after 2 losses or −$40.
+- Stop for the week at −$100.
+- At least 2:1 reward to risk, from the structural stop.
+- Size = $20 ÷ stop distance. eToro's minimum position is $1,000, so at about 31,000 the
+  stop can be up to about 600 points away. Leverage up to 20x.
+
+**Managing the trade:** move the stop to entry only after a new structural swing forms
+beyond it, never at a fixed profit. Optionally take half at 1.5R and leave the rest to
+the target. (R = the amount risked.)
+
+**Proving it:** log every demo trade in `TRADE_LOG.md` (date, session, setup, bias,
+entry, stop, target, result in R, notes). After at least 20 trades or 4 weeks, review.
+Go live only if the average result is positive (at 2:1, a win rate of about 40% or more)
+and the account holder says yes. Real trades then follow the same limits.
