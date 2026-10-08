@@ -142,3 +142,7 @@ the target. (R = the amount risked.)
 entry, stop, target, result in R, notes). After at least 20 trades or 4 weeks, review.
 Go live only if the average result is positive (at 2:1, a win rate of about 40% or more)
 and the account holder says yes. Real trades then follow the same limits.
+
+**After the demo phase:** run the proven model in an eToro Agent Portfolio (its own
+portfolio and access key, copied by the real account). Set it up from a laptop so the
+key and connector settings can be handled safely. Never store the key in this repo.
