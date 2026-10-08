@@ -101,7 +101,7 @@ When a holding or a candidate moves sharply, find the reason before judging it:
 
 ## Intraday model (real-money learning phase)
 
-Short-term trading on the Nasdaq 100 (eToro NSDQ100), held for hours and closed the same
+Short-term trading on major indices and gold (see Markets below), held for hours and closed the same
 day. It follows the rules above (structural stop, retest entry, size from the stop, full
 proposal and an explicit yes) with these additions. From 9 Oct 2026 the account holder
 chose to run it on the **real account** with small stakes, funded by the ~$127 ELIZAOS
@@ -115,7 +115,13 @@ from the reserve. Before any long-term buy, check that free cash stays at or abo
 afterwards; if not, say so before proposing it. Later (from a laptop) move this pot to a
 separate eToro "Regular" sub-account; positions cannot be moved, only cash.
 
-**Market:** Nasdaq 100 only.
+**Markets (from 9 Oct 2026):** Nasdaq 100 (NSDQ100, id 28), S&P 500 (SPX500, id 27),
+DAX (GER40, id 32) and Gold (GOLD, id 18). Each gets its own bias and levels. Nasdaq and
+S&P 500 move together, so treat them as one bet: never hold both at once. Only one
+intraday trade open at a time; the daily, weekly and budget limits are shared across all
+markets. DAX suits the London session (Frankfurt opens 08:00 Irish). Gold reacts sharply
+to US data and Fed news, so respect the news blackout strictly. Pick the cleanest setup;
+do not lower the bar to find a trade.
 
 **Bias first:** before each session, read the daily and 4-hour charts. Trade only in the
 4-hour trend direction (higher highs and lows: buys only; lower highs and lows: sells
