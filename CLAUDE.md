@@ -104,8 +104,9 @@ Short-term trading on the Nasdaq 100 (eToro NSDQ100), held for hours and closed 
 day. It follows the rules above (structural stop, retest entry, size from the stop, full
 proposal and an explicit yes) with these additions. From 9 Oct 2026 the account holder
 chose to run it on the **real account** with small stakes, funded by the ~$127 ELIZAOS
-profit taken on 8 Oct. **Intraday budget: if total intraday losses reach −$127, stop and
-review before any further intraday trade.** The weekly and daily limits below still apply.
+profit taken on 8 Oct plus about $123 of the account holder's own money. **Intraday
+budget: if the net intraday result reaches −$250, stop and review before any further
+intraday trade.** The weekly and daily limits below still apply.
 
 **Market:** Nasdaq 100 only.
 
