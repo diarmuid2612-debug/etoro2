@@ -98,12 +98,14 @@ When a holding or a candidate moves sharply, find the reason before judging it:
 - Say plainly when the search was limited (only snippets read, sites blocked, X not
   checked) instead of saying there is no news.
 
-## Intraday model (demo phase)
+## Intraday model (real-money learning phase)
 
 Short-term trading on the Nasdaq 100 (eToro NSDQ100), held for hours and closed the same
 day. It follows the rules above (structural stop, retest entry, size from the stop, full
-proposal and an explicit yes) with these additions. **Demo account only** until the
-proving rules at the end are met and the account holder agrees to go live.
+proposal and an explicit yes) with these additions. From 9 Oct 2026 the account holder
+chose to run it on the **real account** with small stakes, funded by the ~$127 ELIZAOS
+profit taken on 8 Oct. **Intraday budget: if total intraday losses reach −$127, stop and
+review before any further intraday trade.** The weekly and daily limits below still apply.
 
 **Market:** Nasdaq 100 only.
 
@@ -139,11 +141,11 @@ hold overnight.
 beyond it, never at a fixed profit. Optionally take half at 1.5R and leave the rest to
 the target. (R = the amount risked.)
 
-**Proving it:** log every demo trade in `TRADE_LOG.md` (date, session, setup, bias,
+**Proving it:** log every trade in `TRADE_LOG.md` (date, session, setup, bias,
 entry, stop, target, result in R, notes). After at least 20 trades or 4 weeks, review.
-Go live only if the average result is positive (at 2:1, a win rate of about 40% or more)
-and the account holder says yes. Real trades then follow the same limits.
+Keep the $20 risk until the average result is positive (at 2:1, a win rate of about
+40% or more). Raise risk per trade only after that review and with the account holder's yes.
 
-**After the demo phase:** run the proven model in an eToro Agent Portfolio (its own
+**After the review:** run the proven model in an eToro Agent Portfolio (its own
 portfolio and access key, copied by the real account). Set it up from a laptop so the
 key and connector settings can be handled safely. Never store the key in this repo.
