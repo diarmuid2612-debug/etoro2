@@ -130,12 +130,13 @@ decisions, weekly jobless claims). Close every intraday position by 21:00 Irish 
 hold overnight.
 
 **Risk limits:**
-- Maximum $20 risk per trade.
-- Maximum 2 trades a day. Stop for the day after 2 losses or −$40.
-- Stop for the week at −$100.
+- Maximum $40 risk per trade (raised from $20 on 8 Oct 2026 at the account holder's
+  request; target win rate 40% or better at 2:1).
+- Maximum 2 trades a day. Stop for the day after 2 losses or −$80.
+- Stop for the week at −$200.
 - At least 2:1 reward to risk, from the structural stop.
-- Size = $20 ÷ stop distance. eToro's minimum position is $1,000, so at about 31,000 the
-  stop can be up to about 600 points away. Leverage up to 20x.
+- Size = $40 ÷ stop distance. Margin (exposure ÷ leverage, up to 20x) must fit in
+  available cash; if it does not, risk less rather than move the stop closer.
 
 **Managing the trade:** move the stop to entry only after a new structural swing forms
 beyond it, never at a fixed profit. Optionally take half at 1.5R and leave the rest to
@@ -143,7 +144,7 @@ the target. (R = the amount risked.)
 
 **Proving it:** log every trade in `TRADE_LOG.md` (date, session, setup, bias,
 entry, stop, target, result in R, notes). After at least 20 trades or 4 weeks, review.
-Keep the $20 risk until the average result is positive (at 2:1, a win rate of about
+Keep the $40 risk until the average result is positive (at 2:1, a win rate of about
 40% or more). Raise risk per trade only after that review and with the account holder's yes.
 
 **After the review:** run the proven model in an eToro Agent Portfolio (its own

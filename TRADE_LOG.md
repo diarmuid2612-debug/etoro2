@@ -1,7 +1,7 @@
 # Intraday trade log (Nasdaq 100)
 
 Rules are in CLAUDE.md under "Intraday model (real-money learning phase)". Log every trade, including
-skipped setups worth noting. R = amount risked ($20 max).
+skipped setups worth noting. R = amount risked ($40 max from 9 Oct; $20 before).
 
 **Running totals:** trades 0 · wins 0 · losses 0 · net R 0.0 · net $ 0 · intraday budget left $127 (of $127)
 
