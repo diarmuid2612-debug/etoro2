@@ -138,10 +138,12 @@ low (00:00–07:00 Irish time), previous week's high and low.
 - **B. Breakout and retest:** a 1-hour close beyond a marked level in the bias direction.
   Enter when the retest holds. Stop beyond the retest zone and the latest swing.
 
-**When:** London (08:00–11:00) or New York (14:30–17:00), Irish time. No new trades from
+**When:** any time the market is open (from 9 Oct 2026 the account holder dropped the fixed
+London/New York windows after the best moves came outside them; the London open 08:00 and
+the US open 14:30 Irish are still the busiest times to watch). No new trades from
 30 minutes before to 30 minutes after high-impact US news (CPI, jobs report, Fed
 decisions, weekly jobless claims). Close every intraday position by 21:00 Irish time; never
-hold overnight.
+hold overnight. Note the session time in the log so the review can compare times of day.
 
 **Risk limits:**
 - Maximum $40 risk per trade (raised from $20 on 8 Oct 2026 at the account holder's
