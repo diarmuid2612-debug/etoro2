@@ -35,3 +35,25 @@ range floor around 96.5. It follows the normal trading rules.
 
 **Conflicts.** A short on silver is effectively a bet on a stronger dollar, so it works
 against this idea. Crypto holdings already gain when the dollar weakens.
+
+## NEAR: swap part of HYPE into NEAR as a long-term holding (NEAR id 100337)
+
+**Decision (10 Oct 2026).** The account holder wants to move part of HYPE into NEAR and
+hold NEAR **long-term**, but only on a confirmed breakout. HYPE stays a long-term holding
+otherwise.
+
+**Chart (as of 10 Oct 2026).** NEAR ran from about 1.54 (Aug) to 5.59 (late Sep), roughly
++250%, then went sideways at 4.30–5.59 for three weeks. Ceiling: 5.58–5.59.
+
+**Trigger.** A daily close above 5.60, then a retest of about 5.40–5.60 that holds (a
+daily close bouncing off it).
+
+**The swap.** Sell the August HYPE position (about $331, roughly break-even, so no big
+gain is realised; the account holder can change the amount). Use the proceeds to buy
+NEAR. Fees are about 1% each way.
+
+**After buying.** Add NEAR to the long-term holdings list in CLAUDE.md. Long-term
+holdings are exempt from the trading stop rules, so ask the account holder whether they
+want a wide stop under the retest zone anyway.
+
+**Cancelled if** NEAR closes back below about 4.30 (the range floor) before triggering.
