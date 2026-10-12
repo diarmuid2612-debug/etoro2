@@ -38,6 +38,13 @@ against this idea. Crypto holdings already gain when the dollar weakens.
 
 ## NEAR: swap part of HYPE into NEAR as a long-term holding (NEAR id 100337)
 
+**DONE (12 Oct 2026).** Triggered: eToro daily close 11 Oct at 5.639 (first close above
+5.60 after four failed tests), and the 4H retest dipped to 5.557 that night and held.
+On 12 Oct the August HYPE position (3561473357, 3.95 units at 83.72) was closed at about
+87.44 (about +$14.69), and NEAR was bought: position 3602844662, 57.90 units at 5.872,
+$340, no leverage, no stop (account holder's choice). NEAR is now a long-term holding.
+The notes below are kept for reference.
+
 **Decision (10 Oct 2026).** The account holder wants to move part of HYPE into NEAR and
 hold NEAR **long-term**, but only on a confirmed breakout. HYPE stays a long-term holding
 otherwise.
