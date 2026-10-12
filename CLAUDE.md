@@ -49,6 +49,13 @@ size. Nothing is placed or changed without the account holder's explicit yes.
   about +$14.69). Position 3602844662, 57.90 units at 5.872, $340, no leverage, no stop
   (account holder's choice). Bought after the first daily close above the 5.60 ceiling
   (5.639 on 11 Oct) and a 4H retest to 5.557 that held. The May HYPE position stays.
+  Added 12 Oct 2026: position 3603032012, 24.27 units at 5.769, $140, no stop, funded by
+  selling half of STRK (1,360 units at about 0.104, about +$60 profit). NEAR total about
+  82.2 units, average about 5.84. This left free cash at about $2, below the $450 trading
+  reserve; the account holder chose this knowingly.
+- STRK (trade, not long-term): 1,360 units left at 0.060, stop raised to 0.086 on 12 Oct
+  (below the 0.089 swing low and the 0.100 support), so the worst case is about +$35.
+- AKT (trade): stop raised to 0.685 on 12 Oct (below the 0.69–0.72 retest zone).
 - HNT was bought with a structural stop ($0.435). Keep it as set unless the account
   holder asks to change it.
 - ELIZAOS: on 8 Oct 2026 the two positions added on 6 Oct were closed for about +$127
