@@ -115,7 +115,19 @@ When a holding or a candidate moves sharply, find the reason before judging it:
 - Say plainly when the search was limited (only snippets read, sites blocked, X not
   checked) instead of saying there is no news.
 
-## Intraday model (real-money learning phase)
+## Current focus (from 13 Oct 2026): long-term accumulation, trading paused
+
+- On 13 Oct 2026 the account holder decided to leave trading alone for now (no new
+  intraday or swing trades) and concentrate on buying good crypto at good levels for the
+  next cycle. Do not propose trades or set up trade-monitoring checks unless asked.
+- Long-term buys: buy at strong support (weekly/daily structure), not after big runs;
+  staged entries are fine. Show price, level and chart reason, amount, and the effect on
+  free cash before any buy; nothing is placed without an explicit yes.
+- Existing trades with stops (ORCA, ZRO) are left to run on their stops unless the
+  account holder decides otherwise.
+- The rules below for the intraday model stay on file for when trading resumes.
+
+## Intraday model (real-money learning phase, paused from 13 Oct 2026)
 
 Short-term trading on major indices and gold (see Markets below), held for hours and closed the same
 day. It follows the rules above (structural stop, retest entry, size from the stop, full
