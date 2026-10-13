@@ -53,9 +53,12 @@ size. Nothing is placed or changed without the account holder's explicit yes.
   selling half of STRK (1,360 units at about 0.104, about +$60 profit). NEAR total about
   82.2 units, average about 5.84. This left free cash at about $2, below the $450 trading
   reserve; the account holder chose this knowingly.
-- STRK (trade, not long-term): 1,360 units left at 0.060, stop raised to 0.086 on 12 Oct
-  (below the 0.089 swing low and the 0.100 support), so the worst case is about +$35.
-- AKT (trade): stop raised to 0.685 on 12 Oct (below the 0.69–0.72 retest zone).
+- STRK and AKT were stopped out overnight 12–13 Oct 2026 in an altcoin correction: STRK
+  rest at 0.086 (about +$35; with the half sold earlier, about +$95 in all) and AKT at
+  0.685 (about −$25). The freed cash (about €563) sits in the eToro Cash account, not
+  the Trading account, and must be moved over in the app before it can be used.
+- NEAR's breakout failed: the 12 Oct daily close was 5.363, back below the 5.60 ceiling,
+  and it dipped to 4.886 overnight. It is back inside the 4.30–5.60 range.
 - HNT was bought with a structural stop ($0.435). Keep it as set unless the account
   holder asks to change it.
 - ELIZAOS: on 8 Oct 2026 the two positions added on 6 Oct were closed for about +$127
