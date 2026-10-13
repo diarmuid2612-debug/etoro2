@@ -137,7 +137,9 @@ profit taken on 8 Oct plus about $123 of the account holder's own money. **Intra
 budget: if the net intraday result reaches −$250, stop and review before any further
 intraday trade.** The weekly and daily limits below still apply.
 
-**Trading reserve:** keep at least $450 of free cash in the main account reserved for
+**Trading reserve:** suspended on 13 Oct 2026 while trading is paused; the account holder
+chose to use the free cash for long-term buys. Reinstate it if trading resumes. Original
+rule: keep at least $450 of free cash in the main account reserved for
 trading (set 8 Oct 2026). Long-term buys come only from new deposits or profits, never
 from the reserve. Before any long-term buy, check that free cash stays at or above $450
 afterwards; if not, say so before proposing it. Later (from a laptop) move this pot to a

@@ -64,3 +64,23 @@ holdings are exempt from the trading stop rules, so ask the account holder wheth
 want a wide stop under the retest zone anyway.
 
 **Cancelled if** NEAR closes back below about 4.30 (the range floor) before triggering.
+
+## Long-term buy zones (set 13 Oct 2026, from weekly charts)
+
+Trading is paused; free cash (about $626 on 13 Oct) goes to long-term buys at support,
+in stages. Prices on 13 Oct in brackets. Zones are weekly support (several weekly lows);
+buy when price reaches the zone and holds (no weekly close below it).
+
+| Coin | Id | Now | Buy zone 1 | Buy zone 2 (deeper) | Notes |
+|---|---|---|---|---|---|
+| ETH | 100001 | 2,500 | 2,360–2,420 | 1,850–1,950 | Range 2,355–2,807 since Aug; five weekly lows at 2,355–2,406 |
+| SOL | 100063 | 106.5 | 96–102 | 74–78 | Range 93–125 since Aug; Sep lows 95.7–98 |
+| LINK | 100040 | 12.83 | 12.0–12.3 | 10.6–11.2 | Weekly lows 12.06/12.09/12.25 |
+| BTC | 100000 | 83,400 | 80,300–81,000 | 74,900–76,500 | Range 74.9k–87.4k since Aug |
+| HYPE | 100446 | 82 | 75–79 | — | Holding; range 75–98 since Aug, lows 75.1/76.6/76.7/79.0 |
+| NEAR | 100337 | 5.05 | 4.30–4.55 | 3.90 | Holding ($480 already); lows 4.30 (Oct), 4.54 (Sep) |
+| SUI | 100340 | 1.036 | 0.99–1.00 (testing now) | 0.85–0.90 | Holding (large); needs a weekly close above 1.00 |
+| TIA | 100338 | 0.617 | 0.50–0.54 | 0.42–0.44 | Ran from 0.27; at Dec 2025 resistance 0.63–0.66, not a buy here |
+
+eToro allows market-if-touched (MIT) orders on all of these, so buys can be pre-set at
+the zones with the account holder's yes.
