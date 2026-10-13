@@ -57,6 +57,11 @@ size. Nothing is placed or changed without the account holder's explicit yes.
   rest at 0.086 (about +$35; with the half sold earlier, about +$95 in all) and AKT at
   0.685 (about −$25). The freed cash (about €563) sits in the eToro Cash account, not
   the Trading account, and must be moved over in the app before it can be used.
+- 13 Oct 2026 long-term buys (account holder wants to concentrate on HYPE, SUI and NEAR,
+  aiming for closer to equal weight; SUI is already the largest, so new money goes to
+  HYPE and NEAR): NEAR position 3604439721, 47.88 units at 5.012 ($240, market). Pending
+  MIT orders: NEAR $240 at 4.55 (order 1610742724) and HYPE $140 at 77.50 (order
+  1609603578). No leverage, no stops.
 - NEAR's breakout failed: the 12 Oct daily close was 5.363, back below the 5.60 ceiling,
   and it dipped to 4.886 overnight. It is back inside the 4.30–5.60 range.
 - HNT was bought with a structural stop ($0.435). Keep it as set unless the account
