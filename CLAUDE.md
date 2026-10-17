@@ -41,7 +41,8 @@ size. Nothing is placed or changed without the account holder's explicit yes.
 
 - These rules apply to trades. Positions the account holder has designated as
   long-term holdings are exempt from the stop-loss rules above.
-- Current long-term holdings: SUI, HYPE, PUMP, HNT and NEAR. (AR was stopped out at
+- Current long-term holdings: SUI, HYPE, PUMP and NEAR. (HNT no longer shows in the open
+  positions as of 17 Oct 2026, most likely closed by its $0.435 stop. AR was stopped out at
   its $3.85 stop on 8 Oct 2026 for about −$17.60. ELIZAOS no longer shows in the open
   positions as of 11 Oct 2026; its price, about 0.00036, is below its 0.00049 stop, so
   the stop most likely closed it.)
@@ -62,6 +63,10 @@ size. Nothing is placed or changed without the account holder's explicit yes.
   HYPE and NEAR): NEAR position 3604439721, 47.88 units at 5.012 ($240, market). Pending
   MIT orders: NEAR $240 at 4.55 (order 1610742724) and HYPE $140 at 77.50 (order
   1609603578). No leverage, no stops.
+- As of 17 Oct 2026 neither MIT order is pending. HYPE filled 15 Oct: position 3607164516,
+  1.81 units at 77.48 ($140). A NEAR buy opened 14 Oct evening: position 3606333254,
+  47.01 units at 4.799 ($225.62), not at the 4.55 order level (reason not confirmed).
+  NEAR total about 177 units.
 - NEAR's breakout failed: the 12 Oct daily close was 5.363, back below the 5.60 ceiling,
   and it dipped to 4.886 overnight. It is back inside the 4.30–5.60 range.
 - HNT was bought with a structural stop ($0.435). Keep it as set unless the account
@@ -128,8 +133,10 @@ When a holding or a candidate moves sharply, find the reason before judging it:
 - Long-term buys: buy at strong support (weekly/daily structure), not after big runs;
   staged entries are fine. Show price, level and chart reason, amount, and the effect on
   free cash before any buy; nothing is placed without an explicit yes.
-- Existing trades with stops (ORCA, ZRO) are left to run on their stops unless the
-  account holder decides otherwise.
+- Existing trades with stops are left to run on their stops unless the account holder
+  decides otherwise. By 17 Oct 2026 ORCA and the ZRO position from 2.109 no longer show
+  (most likely stopped at 1.98 and 1.87). One ZRO position remains: 3592632251, 31.97
+  units at 1.783, stop 1.40.
 - The rules below for the intraday model stay on file for when trading resumes.
 
 ## Intraday model (real-money learning phase, paused from 13 Oct 2026)
