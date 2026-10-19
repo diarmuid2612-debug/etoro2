@@ -67,6 +67,10 @@ size. Nothing is placed or changed without the account holder's explicit yes.
   1.81 units at 77.48 ($140). A NEAR buy opened 14 Oct evening: position 3606333254,
   47.01 units at 4.799 ($225.62), not at the 4.55 order level (reason not confirmed).
   NEAR total about 177 units.
+- 19 Oct 2026 SUI buys (account holder chose SUI; HYPE is also held elsewhere): position
+  3609898382, 151.21 units at 0.991 ($150, market, at the 0.99–1.00 weekly support), plus
+  pending MIT order 1616566534, $150 at 0.90 (top of the 0.85–0.90 weekly support). No
+  leverage, no stops. Free cash about $152 until the MIT fills, then about $0.
 - NEAR's breakout failed: the 12 Oct daily close was 5.363, back below the 5.60 ceiling,
   and it dipped to 4.886 overnight. It is back inside the 4.30–5.60 range.
 - HNT was bought with a structural stop ($0.435). Keep it as set unless the account
