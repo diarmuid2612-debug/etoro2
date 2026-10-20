@@ -71,6 +71,8 @@ size. Nothing is placed or changed without the account holder's explicit yes.
   3609898382, 151.21 units at 0.991 ($150, market, at the 0.99–1.00 weekly support), plus
   pending MIT order 1616566534, $150 at 0.90 (top of the 0.85–0.90 weekly support). No
   leverage, no stops. Free cash about $152 until the MIT fills, then about $0.
+- 20 Oct 2026: the SUI 0.90 MIT order was cancelled at the account holder's request to free
+  margin for a small GER40 test trade (see TRADE_LOG.md). Offer to re-place it afterwards.
 - NEAR's breakout failed: the 12 Oct daily close was 5.363, back below the 5.60 ceiling,
   and it dipped to 4.886 overnight. It is back inside the 4.30–5.60 range.
 - HNT was bought with a structural stop ($0.435). Keep it as set unless the account
