@@ -43,8 +43,10 @@ size. Nothing is placed or changed without the account holder's explicit yes.
   long-term holdings are exempt from the stop-loss rules above.
 - Current long-term holdings: SUI, HYPE and NEAR. (PUMP was sold in full on 20 Oct 2026 at
   about 0.004546, 73,851.55 units, about −$11.40, to fund an IO breakout buy; the IO MIT order
-  at 0.172 was rejected by eToro (error 814, "Instrument internal only"), so the cash, about
-  $336, is free. HNT no longer shows in the open
+  at 0.172 was rejected by eToro (error 814, "Instrument internal only"; IO is not tradable
+  for the account holder on eToro). The proceeds went into SUI the same day: position
+  3610510605, 326.77 units at 1.015 ($332, market, no stop). The account holder plans to
+  deposit and buy more SUI if it drops to 0.90; the $145 MIT at 0.90 stays in place. HNT no longer shows in the open
   positions as of 17 Oct 2026, most likely closed by its $0.435 stop. AR was stopped out at
   its $3.85 stop on 8 Oct 2026 for about −$17.60. ELIZAOS no longer shows in the open
   positions as of 11 Oct 2026; its price, about 0.00036, is below its 0.00049 stop, so
