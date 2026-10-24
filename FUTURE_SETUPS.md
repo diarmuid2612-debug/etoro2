@@ -84,3 +84,28 @@ buy when price reaches the zone and holds (no weekly close below it).
 
 eToro allows market-if-touched (MIT) orders on all of these, so buys can be pre-set at
 the zones with the account holder's yes.
+
+## Quality-DeFi / Coutts-style watchlist (set 24 Oct 2026, from eToro weekly charts)
+
+Built from Jamie Coutts' Alpha Crypto Pulse (21 Oct 2026): he added smart-contract
+platforms (SUI, NEAR) and, for the first time, DeFi tokens with real fee capture and
+supply discipline; he keeps a small cash balance to buy quality protocols in a selloff.
+His holdings are not disclosed; this list is a guess from his named examples. These are
+long-term buy zones for new deposits, not trades. All show as tradable in the eToro API,
+but IO also did and was then rejected ("internal only"), so confirm each one appears in
+the eToro app before relying on it. WAL (Walrus) is not on eToro. Prices on 24 Oct.
+
+| Coin | Id | Now | Buy zone 1 | Buy zone 2 (deeper) | Notes |
+|---|---|---|---|---|---|
+| AAVE | 100044 | 140.8 | 134–145 (testing) | 113–121 | Broke out of 85–103 in Aug; range 113–187 since |
+| MORPHO | 100415 | 2.20 | 2.04–2.19 (testing) | 1.82–1.92 | Range 2.04–2.98 since Aug |
+| UNI | 100041 | 6.84 | 5.80–6.00 | 4.95–5.30 | Ran 3.2 → 10.9 (Aug–Sep), now −37% from high |
+| AERO | 100421 | 0.715 | 0.62–0.65 | 0.52–0.55 | Lost the 0.76–0.77 floor this week; wait |
+| VVV | 100529 | 24.27 | 20.5–21.5 | 15.7–17.0 | Three weekly lows at 20.5–21.0 |
+| RENDER | 100334 | 1.70 | 1.65–1.70 (testing) | 1.35–1.45 | Lows 1.658/1.696/1.717 |
+| PYTH | 100307 | 0.0701 | 0.060–0.064 | 0.050–0.055 | Sitting on 0.068–0.072 now |
+| CC (Canton) | 100449 | 0.103 | 0.095–0.097 | 0.087–0.089 | Two weekly lows at 0.0965 |
+
+Existing zones above (24 Oct): BTC 80,559 and ETH 2,366 are inside zone 1, SOL 101.8 is
+at the top of zone 1, LINK 11.64 is below zone 1 (zone 2 is 10.6–11.2), and HYPE 75.6 is
+at the bottom of its 75–79 zone (a weekly close below 75 breaks the Aug–Oct range).
