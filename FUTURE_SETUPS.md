@@ -109,3 +109,23 @@ the eToro app before relying on it. WAL (Walrus) is not on eToro. Prices on 24 O
 Existing zones above (24 Oct): BTC 80,559 and ETH 2,366 are inside zone 1, SOL 101.8 is
 at the top of zone 1, LINK 11.64 is below zone 1 (zone 2 is 10.6–11.2), and HYPE 75.6 is
 at the bottom of its 75–79 zone (a weekly close below 75 breaks the Aug–Oct range).
+
+## Structurally bullish screen (26 Oct 2026; eToro ∩ Coinbase, Revolut to confirm)
+
+Method: CoinGecko top 250, kept coins listed on Coinbase Exchange and openable on eToro
+(99), screened the strongest 200-day performers on daily data: price above a rising
+200-day average, 50-day above 200-day, higher weekly lows and a higher high over 26
+weeks, 90-day strength vs BTC. Revolut has no public list; RAY and PENDLE listings are
+confirmed by news (May/June 2026), others must be checked in the Revolut app.
+
+| Coin | Now | 50-day | 200-day | Above 200d | 90d vs BTC | Buy zone / support | Revolut |
+|---|---|---|---|---|---|---|---|
+| NEAR | 4.56 | 4.31 | 2.44 | +87% | +120% | 4.30–4.55 (weekly floor held) | check |
+| RAY | 1.83 | 1.85 | 0.98 | +86% | +140% | 1.79–1.85 (30d low / 50d) | confirmed |
+| INJ | 7.68 | 7.41 | 5.39 | +43% | +32% | 6.75–7.40 | check |
+| UNI | 7.03 | 7.80 | 4.62 | +52% | +44% | 5.80–6.00 (weekly) | check |
+| AAVE | 135.6 | 149.7 | 107.2 | +26% | +7% | 134–145, deeper 113–121 | check |
+
+Runners-up: HYPE (held), PENDLE (Revolut confirmed, weaker), SOL, PYTH, CRV. Most of these
+sit below their 50-day after the October pullback; per Raoul/Coutts, buy only at support
+after it holds, staged, and keep cash.
