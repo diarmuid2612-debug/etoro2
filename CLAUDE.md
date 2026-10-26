@@ -157,6 +157,25 @@ When a holding or a candidate moves sharply, find the reason before judging it:
   units at 1.783, stop 1.40.
 - The rules below for the intraday model stay on file for when trading resumes.
 
+## Daily Coinbase crypto trade (from 26 Oct 2026)
+
+- One "trade of the day": the account holder converts from one coin to another on
+  Coinbase by hand. Claude has no Coinbase access; it scans, plans and reports only.
+- Morning scan around 07:00 Irish (daily crypto candle closes at 00:00 UTC), run by
+  `tools/coinbase_scan.sh <data dir in scratchpad>`: Coinbase-listed coins from
+  CoinGecko, daily closes, `tools/breakout_scan.py` for breakout -> retest -> confirmation.
+- Only a CONFIRMED setup qualifies: a daily close above a clear ceiling, a pullback that
+  retested it and held, then a daily close bouncing back above it (not more than ~25%
+  above the ceiling, not a coin that already ran 50%+). Otherwise report "no trade today";
+  never lower the bar. Check the news behind the move (rules above) before proposing.
+- Each pick shows: entry zone, structural stop (below the retest zone and the latest
+  swing low) with its reason, target, reward to risk (at least 2:1), stop distance in %
+  and loss per $100 converted. The account holder decides the size each morning and
+  converts from a coin (not cash), so note how the source coin is doing too.
+- A plain Coinbase Convert has no stop; use Coinbase Advanced for a stop order or sell
+  by hand if the stop closes. Convert fees are higher than Advanced trading.
+- Log every pick and result in TRADE_LOG.md (Coinbase section).
+
 ## Intraday model (real-money learning phase, paused from 13 Oct 2026)
 
 Short-term trading on major indices and gold (see Markets below), held for hours and closed the same
