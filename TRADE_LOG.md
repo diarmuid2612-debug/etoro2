@@ -18,3 +18,4 @@ skipped setups worth noting. Max run (R) = how far price went in our favour befo
 | Date | Coin | Converted from | Ceiling / retest | Entry | Stop | Target | R:R | Size | Result | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|
 | 2026-10-26 | – | – | – | – | – | – | – | – | no trade | First scan, 106 coins: none confirmed. 36 October breakouts failed in last week's selloff. Watch TIA (retesting 0.50–0.52) and CVX (holding 2.42–2.48 above 2.48 ceiling). |
+| 2026-10-26 (rescan) | – | – | – | – | – | – | – | – | no trade | Full scan of all 403 Coinbase USD pairs (Coinbase candles): none confirmed. Retesting: TIA (ceiling 0.521, last 0.5315, $2.8m/day, stop ~0.466, 2.4:1 to the 0.688 peak), INDEX, CVX, RAD (thin). Extended (avoid): BAT, RLC, OGN, SAND. |

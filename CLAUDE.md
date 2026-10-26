@@ -162,8 +162,10 @@ When a holding or a candidate moves sharply, find the reason before judging it:
 - One "trade of the day": the account holder converts from one coin to another on
   Coinbase by hand. Claude has no Coinbase access; it scans, plans and reports only.
 - Morning scan around 07:00 Irish (daily crypto candle closes at 00:00 UTC), run by
-  `tools/coinbase_scan.sh <data dir in scratchpad>`: Coinbase-listed coins from
-  CoinGecko, daily closes, `tools/breakout_scan.py` for breakout -> retest -> confirmation.
+  `tools/coinbase_scan.sh <data dir in scratchpad>`: every online Coinbase USD pair
+  (~400) from api.exchange.coinbase.com daily candles, `tools/cb_breakout_scan.py` for
+  breakout -> retest -> confirmation, with stop, R:R and 30-day average USD volume.
+  Favour coins with real volume (roughly $1m+/day); flag thin ones.
 - Only a CONFIRMED setup qualifies: a daily close above a clear ceiling, a pullback that
   retested it and held, then a daily close bouncing back above it (not more than ~25%
   above the ceiling, not a coin that already ran 50%+). Otherwise report "no trade today";

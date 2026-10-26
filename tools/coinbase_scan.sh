@@ -1,22 +1,12 @@
 #!/usr/bin/env bash
-# Morning breakout-retest scan for coins on Coinbase (data: CoinGecko free API).
-# Usage: tools/coinbase_scan.sh <data_dir>   (data_dir outside the repo, e.g. the scratchpad)
+# Morning breakout-retest scan of every Coinbase USD pair, using Coinbase's public candles.
+# Usage: tools/coinbase_scan.sh <data_dir>   (outside the repo, e.g. the scratchpad)
 set -u
-D="${1:?data dir}"; mkdir -p "$D/mc"; cd "$D"
-CG=https://api.coingecko.com/api/v3
-curl -sS -m 30 -o markets.json "$CG/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=250&page=1"
-rm -f cb*.json
-for p in 1 2 3 4 5 6; do curl -sS -m 30 -o cb$p.json "$CG/exchanges/gdax/tickers?page=$p"; sleep 4; done
-python3 -I "$(dirname "$0")/coinbase_universe.py" "$D" > ids.txt
-rm -f mc/*.json
-end=$((SECONDS+900))
-for id in $(cat ids.txt); do
-  [ $SECONDS -gt $end ] && break
-  for t in 1 2 3; do
-    c=$(curl -sS -m 30 -o mc/$id.json -w "%{http_code}" "$CG/coins/$id/market_chart?vs_currency=usd&days=120&interval=daily")
-    [ "$c" = 200 ] && break; rm -f mc/$id.json; sleep 20
-  done
-  sleep 4
-done
-echo "fetched $(ls mc | wc -l) of $(wc -w < ids.txt)"
-python3 -I "$(dirname "$0")/breakout_scan.py" "$D/mc"
+D="${1:?data dir}"; mkdir -p "$D/cbc"; rm -f "$D"/cbc/*.json
+curl -sS -m 30 -o "$D/products.json" https://api.exchange.coinbase.com/products
+python3 -I -c "
+import json,sys
+p=json.load(open(sys.argv[1]))
+print('\n'.join(x['id'] for x in p if x['quote_currency']=='USD' and x['status']=='online' and not x.get('trading_disabled')))" "$D/products.json" > "$D/ids.txt"
+xargs -P 4 -I{} sh -c 'curl -sS -m 20 -o "$0/cbc/{}.json" "https://api.exchange.coinbase.com/products/{}/candles?granularity=86400"; sleep 0.5' "$D" < "$D/ids.txt"
+python3 -I "$(dirname "$0")/cb_breakout_scan.py" "$D/cbc"
