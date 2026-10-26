@@ -29,12 +29,21 @@ have the signal I want. So I hold what I have; I don't add."
 | BTC spot ETF flows | weekly outflows | sustained inflows |
 | Oil (WTI) | above $100 | falling back (Iran deal) |
 
-Data note: on 26 Oct 2026 FRED and federalreserve.gov were blocked by this environment's
-network policy; until they are allowed, readings come from news/web search and are marked
-as estimates.
+Data: FRED, federalreserve.gov and api.coingecko.com were allowed in the environment on
+26 Oct 2026 (coinmarketcap.com and farside.co.uk still fail). Script: `tools/liquidity_proxy.py`
+(download the FRED CSVs for WALCL, WTREGEN, RRPONTSYD, TOTBKCR, GDP into a folder, then run
+`python3 -I tools/liquidity_proxy.py <folder>`). Units: WALCL/WTREGEN $m, RRP and bank
+credit $bn. Bank credit lags the Fed data by about a week. Nominal GDP YoY is quarterly
+(latest Q2 2026: 6.31%).
+
+Proxy history (excess = 6m annualised flow − nominal GDP YoY): +0.43 (22 Jul), +0.20
+(29 Jul), −0.15 (5 Aug, first below zero, matching GMI's "scarce since August"), −1.00
+(12 Aug), −2.19 (2 Sep), −2.46 (23 Sep), −2.91 (30 Sep), −2.99 (7 Oct, low), −2.78 (14 Oct),
+−1.19 (21 Oct). YoY growth of the proxy: 3.6% (Aug) → 5.2% (Oct), close to GMI's 4.9%.
 
 ## Log
 
 | Week of | Excess liq. (ours) | GMI reading | DXY | 2s10s | HY spread | BTC ETF flows | Oil | Verdict |
 |---|---|---|---|---|---|---|---|---|
 | 19 Oct 2026 (baseline, Raoul) | – | broad −2.0 / narrow −4.5 | 101.8 | 35bp | 3.23% | −$230m | ~$97 | Scarce; hold, don't add |
+| 21 Oct 2026 (FRED, first proxy) | −1.19pp (from −2.99 on 7 Oct) | – | 101.5 (26 Oct) | 31bp (23 Oct) | 3.40% (22 Oct) | not fetched | not fetched | Still scarce but improving; curve and HY spread worse; dollar just under 102 |
