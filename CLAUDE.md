@@ -174,6 +174,12 @@ When a holding or a candidate moves sharply, find the reason before judging it:
   swing low) with its reason, target, reward to risk (at least 2:1), stop distance in %
   and loss per $100 converted. The account holder decides the size each morning and
   converts from a coin (not cash), so note how the source coin is doing too.
+- **Risk per trade: $120** (set 27 Oct 2026 by the account holder; the TIA trade of 27 Oct,
+  ~$1,500 position with a ~8% stop, is the reference). Size every trade from its stop:
+  amount to convert = $120 ÷ stop distance (e.g. 8% stop → $1,500; 12% → $1,000; 6% → $2,000),
+  including fees. Keep it fixed after wins and after losses; review after 20 trades and
+  only raise it if the results are positive and the account holder says yes. Each morning
+  report the exact amount to convert for $120 risk.
 - A plain Coinbase Convert has no stop; use Coinbase Advanced for a stop order or sell
   by hand if the stop closes. Convert fees are higher than Advanced trading.
 - Log every pick and result in TRADE_LOG.md (Coinbase section).
