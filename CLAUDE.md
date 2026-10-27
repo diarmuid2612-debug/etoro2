@@ -184,6 +184,31 @@ When a holding or a candidate moves sharply, find the reason before judging it:
   by hand if the stop closes. Convert fees are higher than Advanced trading.
 - Log every pick and result in TRADE_LOG.md (Coinbase section).
 
+## Daily eToro trade (from 28 Oct 2026)
+
+- Pot: **$1,000** freed in the eToro Trading account for trading (the account holder frees it;
+  long-term holdings stay). Keep it fixed: withdraw profits above $1,000 monthly, never top
+  up after losses; if the pot falls to **$750**, stop and review the method.
+- **One trade idea every morning, ready by 07:15 Irish** (scan starts 07:02). Any market:
+  eToro crypto, NSDQ100 (28), SPX500 (27), GER40 (32), GOLD (18), oil, whatever has the
+  cleanest setup. Coinbase candles may be used to screen crypto; eToro candles decide levels.
+- Setups: breakout -> retest -> confirmation, or sweep and reversal, on the daily/4H charts.
+  Structural stop (rules 1 and Entry above). **Minimum 4:1 reward to risk** (account
+  holder's choice). No setup that meets the bar = "no trade today"; never lower the bar.
+- **Risk per trade: $30** (3% of the pot; default proposed 27 Oct, change only on the
+  account holder's say). Size = $30 ÷ stop distance; leverage only as needed for the
+  margin to fit the pot (indices/gold up to 20x).
+- The account holder is at work after 07:15 and cannot watch the trade, so every order goes
+  in at once with **stop-loss and take-profit attached**: a market order if price is at the
+  entry, or an MIT entry order at the retest level. Swing holds over days are fine (note
+  overnight fees). Check the day's US/EU data calendar; skip or adjust if a high-impact
+  release could trigger the entry in a spike.
+- The 07:15 proposal shows the full picture (rule 4) and a ready eToro preview; it is placed
+  only after the account holder's explicit yes. If the yes also approves it, an unfilled MIT
+  entry is cancelled at 21:00 Irish the same day (Claude schedules that check).
+- Only one open trade from this pot at a time unless the account holder agrees otherwise.
+  Log every idea and result in TRADE_LOG.md (eToro daily section).
+
 ## Intraday model (real-money learning phase, paused from 13 Oct 2026)
 
 Short-term trading on major indices and gold (see Markets below), held for hours and closed the same

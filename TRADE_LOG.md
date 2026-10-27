@@ -22,3 +22,9 @@ skipped setups worth noting. Max run (R) = how far price went in our favour befo
 | 2026-10-27 (00:05 check) | TIA | IO / DRV (account holder's choice) | Ceiling 0.52; retest low 0.5173 on 26 Oct | 0.545–0.55 | 0.49 (below 0.50–0.52 zone and 0.5173 swing low); wider alt 0.466 | 0.69, then 0.79 | ~2.6:1 / ~4.4:1 (0.49 stop) | account holder decides | proposed | 26 Oct daily candle: O 0.5314, L 0.5173, H 0.5521, C 0.5454 — held the zone and closed above 0.5315, but below the ideal 0.55, so a modest confirmation. No specific news found (search limited). Mcap ~$539m, FDV ~$645m, 24h vol ~$68m. IO closed 0.1452 (floor 0.140, unlock 28 Oct); DRV 0.3538 (low 0.341). |
 | 2026-10-27 (07:00 scan) | TIA (pick) | IO / DRV | Ceiling 0.52; retest low 0.5173 | 0.525–0.545 (0.528 at 06:50 UTC) | 0.49 | 0.69, then 0.79 | ~4:1 from 0.528 | account holder decides | proposed | Full scan of 404 pairs: CONFIRMED TIA ($2.8m/day) and INDEX (thin, $0.3m/day, not picked). TIA dipped back to 0.528 overnight, still above the 0.52 zone. Fed decision 28 Oct; IO token unlock 28 Oct (IO 0.1435, DRV 0.3527). |
 | 2026-10-27 (taken) | TIA | IO (Coinbase Convert, morning) | Ceiling 0.52; retest low 0.5173 | ~0.525 (to confirm) | Stop-limit sell 0.49 / limit 0.48, GTC, 3,082.49 TIA (Coinbase Advanced, placed 12:22, untriggered) | 0.69, then 0.79 | ~4:1 | 3,082.49 TIA ≈ $1,615 | open | Loss if stopped ≈ $105–140 incl. fees (well above the $20–40 per-trade guide; account holder's choice). Gain ≈ $500 at 0.69, ≈ $820 at 0.79. Morning scans track the daily close; a daily close below 0.50 = setup failed. |
+
+
+## eToro daily trade (from 28 Oct 2026; pot $1,000, risk $30, min 4:1)
+
+| Date | Market | Setup | Entry (type) | Stop | Target | R:R | Size / leverage | Result | Notes |
+|---|---|---|---|---|---|---|---|---|---|
