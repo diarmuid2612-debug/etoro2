@@ -163,7 +163,11 @@ When a holding or a candidate moves sharply, find the reason before judging it:
   units at 1.783, stop 1.40.
 - The rules below for the intraday model stay on file for when trading resumes.
 
-## Daily Coinbase crypto trade (from 26 Oct 2026)
+## Daily Coinbase crypto trade (from 26 Oct 2026; PAUSED from 27 Oct 2026)
+
+- 27 Oct 2026: the account holder paused crypto trading (no new Coinbase picks, no crypto in the
+  eToro pot). The open Coinbase TIA trade is still tracked in the morning report until it exits
+  (stop 0.49, targets 0.69/0.79). The rules below stay on file for when it resumes.
 
 - One "trade of the day": the account holder converts from one coin to another on
   Coinbase by hand. Claude has no Coinbase access; it scans, plans and reports only.
@@ -195,9 +199,10 @@ When a holding or a candidate moves sharply, find the reason before judging it:
 - Pot: **$1,000** freed in the eToro Trading account for trading (the account holder frees it;
   long-term holdings stay). Keep it fixed: withdraw profits above $1,000 monthly, never top
   up after losses; if the pot falls to **$750**, stop and review the method.
-- **One trade idea every morning, ready by 07:15 Irish** (scan starts 07:02). Any market:
-  eToro crypto, NSDQ100 (28), SPX500 (27), GER40 (32), GOLD (18), oil, whatever has the
-  cleanest setup. Coinbase candles may be used to screen crypto; eToro candles decide levels.
+- **One trade idea every morning, ready by 07:15 Irish** (scan starts 07:02), aiming for
+  **2–4 trades a week**. Markets (27 Oct 2026, account holder): NSDQ100 (28), SPX500 (27),
+  GER40 (32), GOLD (18) and oil; **no crypto trading for now**. Setups on the 4H/daily charts,
+  typically resolving in 1–4 days. While a trade is open, the report gives its status instead.
 - Setups: breakout -> retest -> confirmation, or sweep and reversal, on the daily/4H charts.
   Structural stop (rules 1 and Entry above). **Minimum 4:1 reward to risk** (account
   holder's choice). No setup that meets the bar = "no trade today"; never lower the bar.
