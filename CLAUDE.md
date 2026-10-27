@@ -168,6 +168,9 @@ When a holding or a candidate moves sharply, find the reason before judging it:
 - 27 Oct 2026: the account holder paused crypto trading (no new Coinbase picks, no crypto in the
   eToro pot). The open Coinbase TIA trade is still tracked in the morning report until it exits
   (stop 0.49, targets 0.69/0.79). The rules below stay on file for when it resumes.
+- 27 Oct 2026 evening: the account holder converted all the TIA (3,082.49) to SUI on Coinbase,
+  roughly break-even. That Coinbase SUI (~$1,600) is a mid to long-term holding, on top of
+  the eToro SUI; together SUI is the largest crypto exposure by far.
 
 - One "trade of the day": the account holder converts from one coin to another on
   Coinbase by hand. Claude has no Coinbase access; it scans, plans and reports only.
