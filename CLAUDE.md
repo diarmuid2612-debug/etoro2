@@ -85,6 +85,12 @@ size. Nothing is placed or changed without the account holder's explicit yes.
   margin for a small GER40 test trade (see TRADE_LOG.md). The GER40 order never filled and
   was cancelled; the SUI order was re-placed the same day: MIT order 1615827191, $145 at 0.90
   (slightly less than $150 to fit the free cash).
+- 27 Oct 2026, to fund the $1,000 eToro trading pot (account holder: "half NEAR, half SUI";
+  plus a €400 deposit that landed in the eToro Cash account and must be moved to Trading):
+  closed SUI position 3610510605 in full (326.77 units bought at 1.015, sold ~0.926, ~−$29),
+  NEAR position 3602844662 in full (57.90 units at 5.872, sold ~4.62, ~−$72) and 7.3 units of
+  NEAR 3603032012 (bought 5.769, ~−$8.5). Freed ~$596; Trading cash $595.85 afterwards.
+  Remaining NEAR ~111.9 units (5.012, 5.769 rest 16.97, 4.799 lots); SUI ~1,583 units.
 - NEAR's breakout failed: the 12 Oct daily close was 5.363, back below the 5.60 ceiling,
   and it dipped to 4.886 overnight. It is back inside the 4.30–5.60 range.
 - HNT was bought with a structural stop ($0.435). Keep it as set unless the account
