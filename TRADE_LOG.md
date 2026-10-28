@@ -28,5 +28,6 @@ skipped setups worth noting. Max run (R) = how far price went in our favour befo
 
 | Date | Market | Setup | Entry (type) | Stop | Target | R:R | Size / leverage | Result | Notes |
 |---|---|---|---|---|---|---|---|---|---|
+| 2026-10-28 | – | No trade today | – | – | – | – | – | – | Fed decision 18:00 Irish (Warsh) plus big-tech earnings after the US close. Nothing confirmed: NSDQ100 29,805 is pressing the 29,800–29,930 ceiling (21–22 Oct highs) without a daily close above it; SPX500 7,726 is under 7,757–7,770; GER40 is mid-range at 25,000–25,700; GOLD 4,033 has lower highs inside 3,968–4,070; OIL is chopping at 99–103. Closest: NSDQ100 daily close above ~29,930, then a retest that holds (buy ~29,900, stop under the swing ~29,600, target 31,000+, ~4:1). Pot $1,038.67, no open pot trades. |
 
 | 2026-10-27 (closed) | TIA → SUI | – | – | ~0.525 | 0.49 | – | – | 3,082.49 TIA | closed ~flat | Account holder converted all TIA to SUI on Coinbase on the evening of 27 Oct (TIA ~0.53, so roughly break-even after fees). Crypto trading paused. The Coinbase SUI is a mid to long-term holding, not a trade. Cancel any leftover TIA stop-limit order in Coinbase Advanced. |
