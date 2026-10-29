@@ -47,3 +47,9 @@ Proxy history (excess = 6m annualised flow − nominal GDP YoY): +0.43 (22 Jul),
 |---|---|---|---|---|---|---|---|---|
 | 19 Oct 2026 (baseline, Raoul) | – | broad −2.0 / narrow −4.5 | 101.8 | 35bp | 3.23% | −$230m | ~$97 | Scarce; hold, don't add |
 | 21 Oct 2026 (FRED, first proxy) | −1.19pp (from −2.99 on 7 Oct) | – | 101.5 (26 Oct) | 31bp (23 Oct) | 3.40% (22 Oct) | not fetched | not fetched | Still scarce but improving; curve and HY spread worse; dollar just under 102 |
+
+### 29 Oct 2026 (post-Fed check)
+- Fed 28 Oct: hold at 3.75–4.00%, 10–2 (Cook, Hammack for a hike); Warsh hinted at a December hike, no forward guidance.
+- Q3 GDP advance 3.4% annualised (vs ~3.2% expected); September PCE 3.6% y/y, core 3.1% (in line). A December hike is still on the table.
+- DXY 101.9 (between 100 and 102, no break). 2s10s 38bp (28 Oct, up from 29; still under 45). HY spread 3.18% (27 Oct, tighter than the 3.23% baseline). Oil 99.9, back under $100. BTC ETF flows for this week not found (latest seen: +$527m on 19 Oct; October roughly flat to negative).
+- Verdict: no liquidity turn yet. Mixed: credit fine, curve steepening slowly, the dollar is flat and a hawkish Fed is a headwind.
