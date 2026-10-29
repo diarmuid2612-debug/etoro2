@@ -223,6 +223,30 @@ When a holding or a candidate moves sharply, find the reason before judging it:
 - Only one open trade from this pot at a time unless the account holder agrees otherwise.
   Log every idea and result in TRADE_LOG.md (eToro daily section).
 
+## Afternoon day trade (from 30 Oct 2026)
+
+- The account holder finishes work at 16:00 Irish and can watch the US session after that. A scan
+  runs every weekday at about 15:50 so an idea is ready by 16:00.
+- Markets: Mag 7 stocks (AAPL 1001, MSFT 1004, NVDA 1137, GOOGL 6434, AMZN 1005, META 1003,
+  TSLA 1111; stocks up to 5x) and NSDQ100 (28), SPX500 (27), DJ30 (29) (indices up to 20x).
+  Nasdaq, S&P 500 and Dow move together: one of them at a time.
+- Setups from the intraday model: A. sweep and reversal, B. breakout and retest, on 15-minute and
+  1-hour charts, in the 4H trend direction. Levels: the US session high and low so far, the
+  previous day's high and low, and the pre-market range. Structural stop beyond the retest zone
+  and the latest swing.
+- **Minimum 3:1 reward to risk** (4:1 stays for the morning swing trade). **Risk $30** per trade,
+  from the same $1,000 pot. Size = $30 ÷ stop distance.
+- Same-day only: close by 15 minutes before the US cash close (19:45 Irish until 1 Nov 2026,
+  20:45 Irish from 2 Nov). Stop-loss and take-profit attached; no overnight holds.
+- Skip a stock on its earnings day (and the day after if it gapped wildly), and avoid entries from
+  30 minutes before to 30 minutes after high-impact US data.
+- **One open pot trade at a time** (swing or day trade). If one is open, the 16:00 scan only
+  reports its status.
+- Stocks show "requires W-8BEN" on eToro: the form must be signed in the app before the first
+  stock trade.
+- Placed only after the account holder's explicit yes. Log in TRADE_LOG.md (eToro daily section,
+  marked "PM").
+
 ## Intraday model (real-money learning phase, paused from 13 Oct 2026)
 
 Short-term trading on major indices and gold (see Markets below), held for hours and closed the same
