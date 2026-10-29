@@ -247,6 +247,31 @@ When a holding or a candidate moves sharply, find the reason before judging it:
 - Placed only after the account holder's explicit yes. Log in TRADE_LOG.md (eToro daily section,
   marked "PM").
 
+## Pre-trade checklist (from 30 Oct 2026, account holder: "no mistakes")
+
+Every pot trade (morning or afternoon) passes three checks before it is shown, and the
+results are shown with the proposal. Any failure = no proposal (or fix the plan and re-check).
+
+1. **Chart check (fresh data):** re-read the candles right before proposing, not from an
+   earlier scan. Confirm: the instrument id and symbol; the trend direction; the level and the
+   confirming candle has CLOSED (not still forming); the retest/reclaim actually happened. List
+   every level between entry and target (session high/low, previous day high/low, swing
+   points, ceilings) — the target must sit before the first one that blocks it. Check the
+   earnings and data calendar again.
+2. **Numbers check (`tools/trade_check.py`):** run
+   `python3 -I tools/trade_check.py --dir buy|sell --entry E --stop S --target T --min-rr R
+   --levels L1,L2 --leverage X --cash C --spread SP` and paste the output. It checks the stop
+   and target sides, reward to risk including the spread, levels in the way, size for $30
+   risk, margin against cash.
+3. **Preview check:** after prepare-trade, compare the preview field by field with the plan
+   (instrument, buy/sell, order type and trigger, units or amount, leverage, stop-loss,
+   take-profit) and re-run trade_check.py with `--units` and `--quote` from the preview. If
+   the live price has moved more than a quarter of the stop distance from the planned entry,
+   re-plan instead of placing.
+- **After placing:** read get-my-positions-and-orders and confirm the position or order exists
+  with the exact stop-loss and take-profit; report the position or order id. If anything
+  differs, fix it at once (or close) and tell the account holder.
+
 ## Intraday model (real-money learning phase, paused from 13 Oct 2026)
 
 Short-term trading on major indices and gold (see Markets below), held for hours and closed the same
