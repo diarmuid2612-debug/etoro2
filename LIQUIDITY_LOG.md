@@ -47,6 +47,7 @@ Proxy history (excess = 6m annualised flow − nominal GDP YoY): +0.43 (22 Jul),
 |---|---|---|---|---|---|---|---|---|
 | 19 Oct 2026 (baseline, Raoul) | – | broad −2.0 / narrow −4.5 | 101.8 | 35bp | 3.23% | −$230m | ~$97 | Scarce; hold, don't add |
 | 21 Oct 2026 (FRED, first proxy) | −1.19pp (from −2.99 on 7 Oct) | – | 101.5 (26 Oct) | 31bp (23 Oct) | 3.40% (22 Oct) | not fetched | not fetched | Still scarce but improving; curve and HY spread worse; dollar just under 102 |
+| 30 Oct 2026 (FRED, H.4.1 of 28 Oct) | −1.39pp (21 Oct revised to −0.75; low −2.55 on 7 Oct) | – | 101.4 | 37bp (29 Oct) | 3.14% (28 Oct) | not found this week | oil ~102 | Still below zero; credit healthy, curve slowly steepening, dollar soft. Binance $6.3bn hack 29–30 Oct hit crypto sentiment. Not the turn yet |
 
 ### 29 Oct 2026 (post-Fed check)
 - Fed 28 Oct: hold at 3.75–4.00%, 10–2 (Cook, Hammack for a hike); Warsh hinted at a December hike, no forward guidance.
