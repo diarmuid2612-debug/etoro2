@@ -129,3 +129,16 @@ confirmed by news (May/June 2026), others must be checked in the Revolut app.
 Runners-up: HYPE (held), PENDLE (Revolut confirmed, weaker), SOL, PYTH, CRV. Most of these
 sit below their 50-day after the October pullback; per Raoul/Coutts, buy only at support
 after it holds, staged, and keep cash.
+
+## NEAR and SUI add levels (30 Oct 2026, weekly charts)
+
+- NEAR (now ~4.30; ran 1.53 → 5.99 Aug–Oct): zone 1 **3.90–4.00** (double bottom: 22 Sep week low
+  3.916, this week's low 3.90). Zone 2 **3.20–3.35** (2025 highs 3.18–3.35 = the weekly breakout
+  level; little support between 3.90 and 3.35 because Sept's 2.35 → 4.16 week left a gap).
+  Below 3.10 on a weekly close = the breakout has failed; stop adding.
+- SUI (now ~0.89; already the largest crypto holding, eToro ~$1,400 + Coinbase ~$1,600): zone 1
+  **0.82–0.86** (Feb/Mar 2026 lows 0.82–0.83, tested this week at 0.827). Zone 2 **0.70–0.72**
+  (top of the Jun–Sep base; the 22 Sep breakout started from there). Below 0.65 = base broken.
+- Weighting: new money mostly to NEAR (smaller holding); SUI only small adds. Prefer a weekly
+  close holding the zone (Sunday) over catching a wick; better still with liquidity turning up
+  (LIQUIDITY_LOG.md) and Binance withdrawals restored. Never from the $1,000 trading pot.
