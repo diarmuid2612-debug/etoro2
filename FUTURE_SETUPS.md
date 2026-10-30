@@ -142,3 +142,22 @@ after it holds, staged, and keep cash.
 - Weighting: new money mostly to NEAR (smaller holding); SUI only small adds. Prefer a weekly
   close holding the zone (Sunday) over catching a wick; better still with liquidity turning up
   (LIQUIDITY_LOG.md) and Binance withdrawals restored. Never from the $1,000 trading pot.
+
+## Joe Bland (Real Vision) AMA watchlist (30 Oct 2026, weekly charts; position trades, weeks to months)
+
+Prices on eToro at the 30 Oct close. Triggers are from his chart notes; exact levels to be set
+from eToro weekly candles at the first Sunday review. All need a weekly close to confirm.
+- MS Morgan Stanley (184.5): 38% pullback in a rising channel; wants a weekly reversal and price
+  back inside the channel, aiming at new highs. "Macro summer favours financials."
+- BX Blackstone (118.2): uptrend since 2008, at the trendline; a weekly reversal there keeps it
+  in play (data-centre lending).
+- GEV GE Vernova (855): at the lower boundary of its channel; trades with the AI and semi trade,
+  so check those first (semis crashed 30 Oct).
+- ETSY (88.9): base breakout (Elliott "c" low done); earnings were 28 Oct; wait for a retest of
+  the breakout zone (~75–80 on his chart).
+- STAA STAAR Surgical (24.6): broke a 2021 downtrend line and retested it; small cap, not
+  defensive.
+- DFDV DeFi Development (3.29, −15% on 30 Oct): Solana treasury company, extreme crypto
+  leverage; he wanted a green weekly candle at the channel support (~3.9) and it has fallen
+  through. Only with the crypto switch rule.
+- SUI: his notes match ours (support from the Q1 low ~0.79–0.83; structure improves above 1.34).
