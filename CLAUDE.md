@@ -223,6 +223,18 @@ When a holding or a candidate moves sharply, find the reason before judging it:
 - Only one open trade from this pot at a time unless the account holder agrees otherwise.
   Log every idea and result in TRADE_LOG.md (eToro daily section).
 
+## Crypto switch rule for the pot (from 30 Oct 2026, account holder's yes)
+
+- Trigger (both needed): excess liquidity crosses **above zero** in LIQUIDITY_LOG.md (weekly
+  tracker, FRED proxy), **and** BTC closes a **week** (Sunday 00:00 UTC candle) above **80,300**.
+- When it fires: propose moving **half the pot ($500)** into long-term crypto at the zones in
+  FUTURE_SETUPS.md (BTC, NEAR first, SUI only small as it is already the largest holding), staged,
+  on weekly closes that hold. The other half keeps trading under the rules below. Optionally reopen
+  crypto swing trades inside the trading half at the same $30 risk.
+- The weekly liquidity check reports the trigger status every Friday. Nothing moves without the
+  account holder's explicit yes. The $750 review line then applies to the trading half pro rata
+  ($375).
+
 ## Afternoon day trade (from 30 Oct 2026)
 
 - The account holder finishes work at 16:00 Irish and can watch the US session after that. A scan
