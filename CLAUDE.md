@@ -242,7 +242,10 @@ When a holding or a candidate moves sharply, find the reason before judging it:
   swing/day trade from the same pot.
 - Entry: a **weekly close** above the level (or a weekly reversal at support), then the retest
   that holds. Structural stop below the retest zone and the weekly swing low.
-- Risk **$30** per position trade (same pot). Size = $30 ÷ stop distance. With 10–20% stops
+- Risk **$30** per position trade normally; **up to $75 for an A-grade setup** (weekly close
+  confirms the breakout AND the retest holds, clear structural stop, no earnings within 2 weeks)
+  — account holder's yes, 31 Oct 2026. Same pot. Size = risk ÷ stop distance; never leveraged
+  for A-grade sizing. State the grade (normal / A) and why in the proposal. With 10–20% stops
   that is about $150–300 of stock, so **no leverage by default**: leverage does not raise the
   profit when size comes from the stop; it only adds overnight fees (charged daily on
   leveraged CFDs) and liquidation risk. Use leverage only if margin would not otherwise fit.
