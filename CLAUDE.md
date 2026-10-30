@@ -235,6 +235,23 @@ When a holding or a candidate moves sharply, find the reason before judging it:
   account holder's explicit yes. The $750 review line then applies to the trading half pro rata
   ($375).
 
+## Position trades (from 30 Oct 2026, account holder's yes)
+
+- Weekly-chart breakouts held for weeks to months (watchlist in FUTURE_SETUPS.md: MS, BX, GEV,
+  ETSY, STAA, DFDV, plus others found later). **One position trade may run alongside** the
+  swing/day trade from the same pot.
+- Entry: a **weekly close** above the level (or a weekly reversal at support), then the retest
+  that holds. Structural stop below the retest zone and the weekly swing low.
+- Risk **$30** per position trade (same pot). Size = $30 ÷ stop distance. With 10–20% stops
+  that is about $150–300 of stock, so **no leverage by default**: leverage does not raise the
+  profit when size comes from the stop; it only adds overnight fees (charged daily on
+  leveraged CFDs) and liquidation risk. Use leverage only if margin would not otherwise fit.
+- Let it run: no fixed target by default; trail the stop under each new weekly higher low
+  (only when a new weekly swing has formed). Take part profit at 3R if the account holder wants.
+- Earnings gaps can jump a stop: note the next earnings date in the proposal; the account
+  holder decides whether to hold through it.
+- The three-step pre-trade checklist applies. Stocks carry a transaction fee on eToro; include it.
+
 ## Afternoon day trade (from 30 Oct 2026)
 
 - The account holder finishes work at 16:00 Irish and can watch the US session after that. A scan
