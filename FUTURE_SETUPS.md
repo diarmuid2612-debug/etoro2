@@ -183,3 +183,16 @@ from eToro weekly candles at the first Sunday review. All need a weekly close to
   above 26.2; stop below 22.26 (~22). Thin volume; earnings ~early Nov, so not A-grade.
 - **DFDV (3.28):** lower highs (6.65 → 5.85 → 4.49 → 3.99), broke the 3.6–3.9 support; the next
   support is 2.45–2.75. Avoid; off the active list.
+
+## HYPE retest watch (31 Oct 2026, account holder's request)
+
+- HYPE (87.6 on 31 Oct): ICE/NYSE perps news spike to ~94–98; now back in the **85–90 retest
+  zone** (the $90 breakout). Signal: a **daily close holding above 85** after touching 85–90
+  (better still a weekly close back above 90). Fail: a daily close below 85 = fading.
+- Data (eToro, 12 months to 31 Oct): HYPE +110% vs BTC −30%, but about twice as volatile
+  (annualised 86% vs 45%; average daily range 6.9% vs 3.4%; 18 days of ±10% vs 2). So: no high
+  leverage on HYPE; the 5x/10x pot plan stays on BTC.
+- If it holds, two options (account holder decides): add at **1x** as a long-term holding from
+  new money, or a **position trade** with the stop below the mid-Oct base (~75.5, −14%), risk
+  $30–75 = about $200–500 of HYPE, 1x (2x at most). The account holder already holds ~$1,000 of
+  HYPE on eToro plus more elsewhere: note the concentration in any proposal.
