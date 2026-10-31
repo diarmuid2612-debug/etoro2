@@ -161,3 +161,25 @@ from eToro weekly candles at the first Sunday review. All need a weekly close to
   leverage; he wanted a green weekly candle at the channel support (~3.9) and it has fallen
   through. Only with the crypto switch rule.
 - SUI: his notes match ours (support from the Q1 low ~0.79–0.83; structure improves above 1.34).
+
+### Weekly review 31 Oct 2026 (eToro weekly candles to the 30 Oct close)
+- **BX (118.38):** weekly reversal at the 101.7–105 support (Mar low 101.73; 12 Oct week low
+  103.45): the 19 Oct week ran 104.3 → 117.97, and this week held a higher low at 114.29 and
+  closed 118.38. Next resistance 120.75 (this week's high), then 127.75–129.4 (Sep), 136.9, 150.
+  Stop below the 103.45 swing low = ~102.5 (−13%). Grade NORMAL now (reversal confirmed, no
+  breakout yet); **A-grade on a weekly close above 120.75** with a retest that holds. Earnings
+  were late Oct; the next ones are around late Jan.
+- **MS (184.43):** pullback from 233.56 (Jul) to a 176.5–177 floor held for 3 weeks (≈61.8% of
+  the 147 → 233 run). This week's wick to 194.3 was rejected. Trigger: weekly close above
+  196.4 (the Sep breakdown level); stop below 176 (~175.5). Not confirmed.
+- **GEV (854.53):** fell from 1,195 (Jul) to 796 (19 Oct week), at the Mar support 805–825.
+  This week 807 → 943 → 854 (long upper wick). Trigger: weekly close above ~943; stop below 795.
+  Tied to AI/semis, which crashed 30 Oct. Not confirmed.
+- **ETSY (88.88):** uptrend 47 (Mar) → 93.78; the breakout zone is 87.4–90.2 (Aug/Oct highs).
+  Earnings week: 83.5 → 93.8 → 88.9, closed below 90.2. Trigger: weekly close above 90.2,
+  retest of 87–90 holding; stop below 83.5 (~83, −7%). Next earnings ~Feb. The best R:R
+  candidate if it confirms.
+- **STAA (24.54):** range 19–26 since July; resistance 26.2 (Aug highs). Trigger: weekly close
+  above 26.2; stop below 22.26 (~22). Thin volume; earnings ~early Nov, so not A-grade.
+- **DFDV (3.28):** lower highs (6.65 → 5.85 → 4.49 → 3.99), broke the 3.6–3.9 support; the next
+  support is 2.45–2.75. Avoid; off the active list.
