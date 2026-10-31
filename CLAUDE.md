@@ -223,17 +223,25 @@ When a holding or a candidate moves sharply, find the reason before judging it:
 - Only one open trade from this pot at a time unless the account holder agrees otherwise.
   Log every idea and result in TRADE_LOG.md (eToro daily section).
 
-## Crypto switch rule for the pot (from 30 Oct 2026, account holder's yes)
+## Crypto switch rule for the pot: BTC 5x, full pot (updated 31 Oct 2026, account holder's yes)
 
-- Trigger (both needed): excess liquidity crosses **above zero** in LIQUIDITY_LOG.md (weekly
-  tracker, FRED proxy), **and** BTC closes a **week** (Sunday 00:00 UTC candle) above **80,300**.
-- When it fires: propose moving **half the pot ($500)** into long-term crypto at the zones in
-  FUTURE_SETUPS.md (BTC, NEAR first, SUI only small as it is already the largest holding), staged,
-  on weekly closes that hold. The other half keeps trading under the rules below. Optionally reopen
-  crypto swing trades inside the trading half at the same $30 risk.
-- The weekly liquidity check reports the trigger status every Friday. Nothing moves without the
-  account holder's explicit yes. The $750 review line then applies to the trading half pro rata
-  ($375).
+- Trigger (BOTH needed): excess liquidity crosses **above zero** in LIQUIDITY_LOG.md (weekly
+  tracker, FRED proxy) **and** BTC closes a **week** (Sunday 00:00 UTC candle) above **80,300**.
+  The account holder always meant to wait for liquidity; no entry on the BTC break alone.
+- When both fire: the **whole pot** goes into **BTC at 5x** (eToro offers up to 20x on crypto in
+  the app). Entry on the **retest that holds, ~80,000–80,500**, not on the breakout candle.
+  Stop **75,800** (below the 76,141 weekly swing low), attached from the first second, never
+  moved lower. At the full ~$1,038 that is ~$5,190 exposure and ~−$285 + fees if stopped.
+- Guardrails: **one attempt only**; if stopped out, no second 5x attempt: stop and review with
+  what is left. Move the stop to break-even only after BTC reaches ~90,000 AND a new weekly
+  higher low has formed. Take **one third off at ~100,000**; trail the rest under each new weekly
+  higher low. Nightly CFD fees apply; report them monthly.
+- Until the trigger fires the daily/day/position trades continue as below. When it fires, no new
+  pot trades; any open pot trade runs to its stop/target first (or is closed on the account
+  holder's yes) so the full pot is free.
+- The weekly liquidity check (Fridays) and the Monday crypto weekly-close check report the
+  status of both halves. Full eToro preview and the three-step checklist before placing;
+  nothing is placed without the account holder's explicit yes.
 
 ## Position trades (from 30 Oct 2026, account holder's yes)
 
