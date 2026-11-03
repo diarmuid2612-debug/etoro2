@@ -196,3 +196,26 @@ from eToro weekly candles at the first Sunday review. All need a weekly close to
   new money, or a **position trade** with the stop below the mid-Oct base (~75.5, −14%), risk
   $30–75 = about $200–500 of HYPE, 1x (2x at most). The account holder already holds ~$1,000 of
   HYPE on eToro plus more elsewhere: note the concentration in any proposal.
+- 2–3 Nov update: daily close 83.95 on 2 Nov (below 85, the retest FAILED), then back to ~85.4
+  on 3 Nov. After one failed close, want **two daily closes above 85** before treating it as held.
+
+## DRV (Derive) small long-term buy watch (3 Nov 2026, account holder's request)
+
+- What it is: on-chain options/perps/structured-products exchange (own OP-stack chain; also in
+  the HyperEVM ecosystem). Same sector as HYPE but much smaller: mcap ~$330m (#126), only
+  **~$4m/day volume**, fees go to an insurance fund (no HYPE-style buyback), ~71% of supply
+  circulating (1.06bn of 1.5bn), so unlocks still to come. Not on Coinbase; availability on
+  eToro/Revolut to confirm before any buy.
+- Chart (CoinGecko daily, 3 Nov): 0.08–0.16 base most of 2026; tripled in one week in Sept
+  (0.137 → 0.435), ATH 0.569 on 9 Oct; since then **lower weekly highs** 0.454 → 0.399 → 0.368
+  → 0.309. Now testing ~0.30. Next real support: the **0.14–0.17** pre-spike base. The cause of
+  the Sept spike was not researched yet; check the news before any buy.
+- **Buy setup A (base + reclaim, preferred):** a weekly close holding above ~0.28–0.30 with a
+  higher low for 2+ weeks, then a daily close above **~0.37–0.40** (the lower-high line) and a
+  retest of it that holds. Buy there.
+- **Buy setup B (deep value):** if 0.28 fails on a weekly close, wait for the 0.14–0.17 base and
+  a weekly reversal candle there (bounce and close in the upper half).
+- Size: "a little", from new money only, never from the pot; account holder sets the amount.
+  1x, long-term holding (no stop by default, as with the other holdings). Show price, level,
+  chart reason, amount and the effect on free cash; place nothing without an explicit yes.
+- Checked in the Monday crypto weekly-close check.
