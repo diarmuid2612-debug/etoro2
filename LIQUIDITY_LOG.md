@@ -54,3 +54,10 @@ Proxy history (excess = 6m annualised flow − nominal GDP YoY): +0.43 (22 Jul),
 - Q3 GDP advance 3.4% annualised (vs ~3.2% expected); September PCE 3.6% y/y, core 3.1% (in line). A December hike is still on the table.
 - DXY 101.9 (between 100 and 102, no break). 2s10s 38bp (28 Oct, up from 29; still under 45). HY spread 3.18% (27 Oct, tighter than the 3.23% baseline). Oil 99.9, back under $100. BTC ETF flows for this week not found (latest seen: +$527m on 19 Oct; October roughly flat to negative).
 - Verdict: no liquidity turn yet. Mixed: credit fine, curve steepening slowly, the dollar is flat and a hawkish Fed is a headwind.
+
+### 3 Nov 2026 (interim check, account holder asked)
+- No new Fed balance-sheet data since 28 Oct (next H.4.1 on Thu 5 Nov). Proxy for 28 Oct now
+  **−1.23pp** (bank credit to 21 Oct revised in); 21 Oct −0.59, low −2.63 on 7 Oct. Still below zero.
+- 2s10s 32bp (2 Nov, flatter than 37); HY spread **3.43%** (2 Nov, wider than 3.14 on 28 Oct:
+  some risk-off after the chip sell-off and the Binance hack); DXY 101.35, testing the 101.10
+  range floor. RRP ~0. Verdict: no turn; credit slightly worse, dollar softer.
