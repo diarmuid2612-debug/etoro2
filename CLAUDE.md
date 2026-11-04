@@ -223,20 +223,21 @@ When a holding or a candidate moves sharply, find the reason before judging it:
 - Only one open trade from this pot at a time unless the account holder agrees otherwise.
   Log every idea and result in TRADE_LOG.md (eToro daily section).
 
-## Crypto switch rule for the pot: BTC 2x on the full pot (updated 4 Nov 2026, account holder's yes)
+## Crypto switch rule for the pot: BTC on the weekly 80,300 close (updated 4 Nov 2026, account holder's yes)
 
 - Trigger: BTC closes a **week** (Sunday 00:00 UTC candle) above **80,300**. On 4 Nov 2026 the
   account holder dropped the liquidity condition ("80,300 only"); LIQUIDITY_LOG.md stays as
   background information, not a trigger.
-- When it fires: **the full pot (~$1,000 margin) goes into BTC at 2x** = ~$2,000 exposure (the
-  account holder's choice; no cash reserve, but at 2x the position is only wiped out at about
-  −50%). Never above 2x for this trade without a new yes. Entry on the **retest that holds,
-  ~80,000–80,500**, via an MIT order with the stop attached, not on the breakout candle.
+- Size: **NOT DECIDED** (4 Nov 2026: the account holder picked "$1,000 at 2x" by mistake and
+  will decide later). Options discussed: $519 at 10x (~$5,190 exposure, half kept as cash),
+  $600 at 5x (~$3,000, ~$438 cash), $1,000 at 2x (~$2,000). Never 20x. Ask for the size when the
+  trigger fires, before any preview. Entry on the **retest that holds, ~80,000–80,500**, via an
+  MIT order with the stop attached, not on the breakout candle.
 - Stop: below the latest weekly swing low with a buffer, decided at the time from the chart.
   On 4 Nov BTC swept the 76,141 low to **75,600** and reversed, which would have hit the old
   75,800 stop; so the stop now goes **below 75,600, around 75,000** (or below a newer higher low
-  if one forms). At 2x from ~80,250 that is about −$130 + fees if stopped. Attached from the
-  first second, never moved lower.
+  if one forms). Loss if stopped from ~80,250 (~6.5%): ~$130 at $2,000 exposure, ~$195 at
+  $3,000, ~$340 at $5,190, plus fees. Attached from the first second, never moved lower.
 - Guardrails: **one attempt only**; if stopped out, no second attempt: stop and review. Move the
   stop to break-even only after BTC reaches ~90,000 AND a new weekly higher low has formed. Take
   **one third off at ~100,000**; trail the rest under each new weekly higher low. Nightly CFD
