@@ -223,27 +223,29 @@ When a holding or a candidate moves sharply, find the reason before judging it:
 - Only one open trade from this pot at a time unless the account holder agrees otherwise.
   Log every idea and result in TRADE_LOG.md (eToro daily section).
 
-## Crypto switch rule for the pot: BTC 10x on half the pot (updated 31 Oct 2026, account holder's yes)
+## Crypto switch rule for the pot: BTC 2x on the full pot (updated 4 Nov 2026, account holder's yes)
 
-- Trigger (BOTH needed): excess liquidity crosses **above zero** in LIQUIDITY_LOG.md (weekly
-  tracker, FRED proxy) **and** BTC closes a **week** (Sunday 00:00 UTC candle) above **80,300**.
-  The account holder always meant to wait for liquidity; no entry on the BTC break alone.
-- When both fire: **half the pot (~$519 margin) goes into BTC at 10x** = ~$5,190 exposure (same
-  exposure as the earlier 5x/full-pot plan); the **other half (~$519) stays in cash** untouched
-  as a reserve (worst case in a crash is capped at the $519 margin). eToro offers up to 20x on
-  crypto in the app; never use 20x here (its forced close would sit above our stop). Entry on
-  the **retest that holds, ~80,000–80,500**, via an MIT order with the stop attached, not on
-  the breakout candle. Stop **75,800** (below the 76,141 weekly swing low), attached from the
-  first second, never moved lower: ~−$285 + fees if stopped (more with slippage in a crash).
-- Guardrails: **one attempt only**; if stopped out, no second 5x attempt: stop and review with
-  what is left. Move the stop to break-even only after BTC reaches ~90,000 AND a new weekly
-  higher low has formed. Take **one third off at ~100,000**; trail the rest under each new weekly
-  higher low. Nightly CFD fees apply; report them monthly.
+- Trigger: BTC closes a **week** (Sunday 00:00 UTC candle) above **80,300**. On 4 Nov 2026 the
+  account holder dropped the liquidity condition ("80,300 only"); LIQUIDITY_LOG.md stays as
+  background information, not a trigger.
+- When it fires: **the full pot (~$1,000 margin) goes into BTC at 2x** = ~$2,000 exposure (the
+  account holder's choice; no cash reserve, but at 2x the position is only wiped out at about
+  −50%). Never above 2x for this trade without a new yes. Entry on the **retest that holds,
+  ~80,000–80,500**, via an MIT order with the stop attached, not on the breakout candle.
+- Stop: below the latest weekly swing low with a buffer, decided at the time from the chart.
+  On 4 Nov BTC swept the 76,141 low to **75,600** and reversed, which would have hit the old
+  75,800 stop; so the stop now goes **below 75,600, around 75,000** (or below a newer higher low
+  if one forms). At 2x from ~80,250 that is about −$130 + fees if stopped. Attached from the
+  first second, never moved lower.
+- Guardrails: **one attempt only**; if stopped out, no second attempt: stop and review. Move the
+  stop to break-even only after BTC reaches ~90,000 AND a new weekly higher low has formed. Take
+  **one third off at ~100,000**; trail the rest under each new weekly higher low. Nightly CFD
+  fees apply; report them monthly.
 - Until the trigger fires the daily/day/position trades continue as below. When it fires, no new
   pot trades; any open pot trade runs to its stop/target first (or is closed on the account
   holder's yes) so the full pot is free.
-- The weekly liquidity check (Fridays) and the Monday crypto weekly-close check report the
-  status of both halves. Full eToro preview and the three-step checklist before placing;
+- The Monday crypto weekly-close check reports the BTC weekly close vs 80,300 (the trigger);
+  the Friday liquidity check reports liquidity as background. Full eToro preview and the three-step checklist before placing;
   nothing is placed without the account holder's explicit yes.
 
 ## Position trades (from 30 Oct 2026, account holder's yes)
