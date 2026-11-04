@@ -237,9 +237,9 @@ When a holding or a candidate moves sharply, find the reason before judging it:
   80,300 level and LIQUIDITY_LOG.md stay as background for the weekly checks.
 - Adding later: each new 2x buy has its own forced-close level at about 75% of its entry; buys
   at 1x have none. Show the preview (fee, nightly fee, stop) before every add.
-- With the pot in BTC there is no cash for pot trades: the morning and afternoon scans report
-  the BTC position and watch-list levels only, until cash is added or the account holder says
-  otherwise. Report the overnight fees monthly.
+- With the pot in BTC there is no cash for pot trades. On 4 Nov 2026 the account holder paused
+  the 07:15 and 16:00 scans (scheduled tasks disabled, not deleted); re-enable them when cash
+  is added for trading and the account holder asks. Report the overnight fees monthly.
 
 ## Position trades (from 30 Oct 2026, account holder's yes)
 
