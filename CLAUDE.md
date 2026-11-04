@@ -41,7 +41,7 @@ size. Nothing is placed or changed without the account holder's explicit yes.
 
 - These rules apply to trades. Positions the account holder has designated as
   long-term holdings are exempt from the stop-loss rules above.
-- Current long-term holdings: SUI, HYPE, NEAR and BTC. (PUMP was sold in full on 20 Oct 2026 at
+- Current long-term holdings: SUI, HYPE, NEAR and BTC (including the 2x BTC position from 4 Nov 2026). (PUMP was sold in full on 20 Oct 2026 at
   about 0.004546, 73,851.55 units, about −$11.40, to fund an IO breakout buy; the IO MIT order
   at 0.172 was rejected by eToro (error 814, "Instrument internal only"; IO is not tradable
   for the account holder on eToro). The proceeds went into SUI the same day: position
@@ -223,31 +223,23 @@ When a holding or a candidate moves sharply, find the reason before judging it:
 - Only one open trade from this pot at a time unless the account holder agrees otherwise.
   Log every idea and result in TRADE_LOG.md (eToro daily section).
 
-## Crypto switch rule for the pot: BTC on the weekly 80,300 close (updated 4 Nov 2026, account holder's yes)
+## BTC 2x hold with the whole pot (4 Nov 2026, account holder's yes; replaces the crypto switch rule)
 
-- Trigger: BTC closes a **week** (Sunday 00:00 UTC candle) above **80,300**. On 4 Nov 2026 the
-  account holder dropped the liquidity condition ("80,300 only"); LIQUIDITY_LOG.md stays as
-  background information, not a trigger.
-- Size: **NOT DECIDED** (4 Nov 2026: the account holder picked "$1,000 at 2x" by mistake and
-  will decide later). Options discussed: $519 at 10x (~$5,190 exposure, half kept as cash),
-  $600 at 5x (~$3,000, ~$438 cash), $1,000 at 2x (~$2,000). Never 20x. Ask for the size when the
-  trigger fires, before any preview. Entry on the **retest that holds, ~80,000–80,500**, via an
-  MIT order with the stop attached, not on the breakout candle.
-- Stop: below the latest weekly swing low with a buffer, decided at the time from the chart.
-  On 4 Nov BTC swept the 76,141 low to **75,600** and reversed, which would have hit the old
-  75,800 stop; so the stop now goes **below 75,600, around 75,000** (or below a newer higher low
-  if one forms). Loss if stopped from ~80,250 (~6.5%): ~$130 at $2,000 exposure, ~$195 at
-  $3,000, ~$340 at $5,190, plus fees. Attached from the first second, never moved lower.
-- Guardrails: **one attempt only**; if stopped out, no second attempt: stop and review. Move the
-  stop to break-even only after BTC reaches ~90,000 AND a new weekly higher low has formed. Take
-  **one third off at ~100,000**; trail the rest under each new weekly higher low. Nightly CFD
-  fees apply; report them monthly.
-- Until the trigger fires the daily/day/position trades continue as below. When it fires, no new
-  pot trades; any open pot trade runs to its stop/target first (or is closed on the account
-  holder's yes) so the full pot is free.
-- The Monday crypto weekly-close check reports the BTC weekly close vs 80,300 (the trigger);
-  the Friday liquidity check reports liquidity as background. Full eToro preview and the three-step checklist before placing;
-  nothing is placed without the account holder's explicit yes.
+- 4 Nov 2026 09:27 UTC: the account holder chose to put all available cash into BTC at 2x and hold
+  it long-term, adding when spare cash comes in ("buy BTC with 2x leverage and without a stop,
+  I'll keep adding"). Position **3625481952**: 0.025934 BTC at **78,273.91**, $1,014.98 invested,
+  2x (~$2,030 exposure), fees $20.30, overnight fee ~$1.08/night (preview). Free cash ~$3.
+- Stop: eToro requires one at 2x and caps it at 50% of the margin; set at the furthest allowed,
+  **58,705** (−25%, about −$507 if hit; just above the 2026 low of 57,718). No take-profit.
+  Treat it as a long-term holding: do not move the stop or suggest stops unless asked.
+- 5x was not available through the API (BTC allows 1x and 2x only); the account holder saw 5x in
+  the app. Earlier switch-rule plans (80,300 weekly close, liquidity) are superseded; the
+  80,300 level and LIQUIDITY_LOG.md stay as background for the weekly checks.
+- Adding later: each new 2x buy has its own forced-close level at about 75% of its entry; buys
+  at 1x have none. Show the preview (fee, nightly fee, stop) before every add.
+- With the pot in BTC there is no cash for pot trades: the morning and afternoon scans report
+  the BTC position and watch-list levels only, until cash is added or the account holder says
+  otherwise. Report the overnight fees monthly.
 
 ## Position trades (from 30 Oct 2026, account holder's yes)
 
