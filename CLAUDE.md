@@ -235,6 +235,10 @@ When a holding or a candidate moves sharply, find the reason before judging it:
 - 5x was not available through the API (BTC allows 1x and 2x only); the account holder saw 5x in
   the app. Earlier switch-rule plans (80,300 weekly close, liquidity) are superseded; the
   80,300 level and LIQUIDITY_LOG.md stay as background for the weekly checks.
+- 7 Nov 2026 (account holder, after liquidity fell to −2.11): decide on the weekly close. A BTC
+  weekly close below ~74,700 (new low) = close the 2x on Monday (show the prepare-close preview
+  first); a close above ~75,000 = keep it and review at the Friday liquidity reading. Holding
+  2x costs ~$32/month in overnight fees.
 - Adding later: each new 2x buy has its own forced-close level at about 75% of its entry; buys
   at 1x have none. Show the preview (fee, nightly fee, stop) before every add.
 - With the pot in BTC there is no cash for pot trades. On 4 Nov 2026 the account holder paused
