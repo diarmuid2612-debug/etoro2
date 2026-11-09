@@ -62,3 +62,30 @@ Proxy history (excess = 6m annualised flow − nominal GDP YoY): +0.43 (22 Jul),
 - 2s10s 32bp (2 Nov, flatter than 37); HY spread **3.43%** (2 Nov, wider than 3.14 on 28 Oct:
   some risk-off after the chip sell-off and the Binance hack); DXY 101.35, testing the 101.10
   range floor. RRP ~0. Verdict: no turn; credit slightly worse, dollar softer.
+
+## Raoul Pal "Macro Investing Tool" 2 Nov 2026: the turn checklist
+
+Account holder shared the report on 9 Nov. Raoul: the weakness is liquidity, not AI (none of the
+hyperscalers cut 2027 capex). "So I hold, and I don't add yet." Expected sequence: a base first,
+then a rally as the ISM falls. Lead from financial conditions to liquidity is ~30 days now;
+liquidity leads the Nasdaq/Bitcoin by ~a quarter.
+
+His readings (2 Nov): real-time FCI (3m) low 53.4 on 14 Oct, 54.2 on 2 Nov (a higher low, just
+turning; the 3-month change crosses zero ~January if conditions hold). Excess liquidity index
+−0.5σ; October nowcast −2.4 broad, −5.5 narrow. US broad liquidity $25.76tn, +5.4% y/y but only
++0.6% over 3 months; narrow $11.53tn, −1.1% over 3 months. Global liquidity +6.6% y/y. S&P
+speculators net short −6.9% of open interest (washed out). Since 2011, 7 conditions turns: Nasdaq
+higher 6 months later in 5 (median ~+12%); the 2 failures (2011, 2018) re-tightened.
+
+**Turn checklist (track weekly):**
+
+| Signal | Needed | 2 Nov (Raoul) | 6–9 Nov (ours) |
+|---|---|---|---|
+| Dollar (DXY) | under 100 | 101.87 | 101.6 |
+| 2-year minus fed funds | falling toward 0 (hikes priced out) | 4.59 − 3.88 = +71bp; Dec hike ~83% | 4.46 − 3.88 = **+58bp** (5 Nov) |
+| 2s10s | steepening from the front end | 38bp | 38bp |
+| Real-time FCI (3m) | keeps rising | 54.2, higher low | not available to us |
+| Excess liquidity | turning up | −2.4 broad nowcast | −2.11 (our proxy, 4 Nov) |
+
+**Where he is wrong (2018 path):** the Fed hikes in December (FOMC 9–10 Dec), the dollar breaks
+back above 102, the 2-year pushes higher. Then conditions re-tighten and the base takes longer.
