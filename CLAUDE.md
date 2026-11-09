@@ -228,8 +228,9 @@ When a holding or a candidate moves sharply, find the reason before judging it:
 - **CLOSED 9 Nov 2026 ~13:08 UTC** on the account holder's "close the btc trade", after the weekly
   close of 74,034 (below the 74,700 decision level). Close order 1636084035 at ~74,800, P&L about
   −$90 on price; Trading cash went from $1,038.67 to **$903.47**: about **−$135 in all** (fees and
-  overnight included). Cash is idle again; the 07:15/16:00 scans stay paused until the account
-  holder asks. The notes below are kept as history.
+  overnight included). 9 Nov 2026: the account holder restarted the 07:15 and 16:00 scans; the
+  pot is now **$903.47** (risk stays $30 per trade, about 3.3%; the $750 review floor still
+  applies). The notes below are kept as history.
 
 - 4 Nov 2026 09:27 UTC: the account holder chose to put all available cash into BTC at 2x and hold
   it long-term, adding when spare cash comes in ("buy BTC with 2x leverage and without a stop,
