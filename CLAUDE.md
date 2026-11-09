@@ -252,6 +252,22 @@ When a holding or a candidate moves sharply, find the reason before judging it:
   the 07:15 and 16:00 scans (scheduled tasks disabled, not deleted); re-enable them when cash
   is added for trading and the account holder asks. Report the overnight fees monthly.
 
+## BTC staged re-entry (9 Nov 2026, account holder's yes; $300 each from the trading pot)
+
+- Plan: three parts. Part 1 at the May low (~72,400) at **1x**; part 2 at the March/April lows
+  (~65,000) at **2x**; part 3 decided later (a BTC weekly close above 80,300 and/or 3 of 5
+  green on the Raoul turn checklist in LIQUIDITY_LOG.md).
+- Part 1: MIT order **1637288815**, buy $300 BTC at **72,400**, 1x (real BTC, settlementType REAL),
+  no stop, no take-profit. Long-term holding once filled.
+- Part 2: MIT order **1636897214**, buy $300 BTC at **65,000**, 2x (CFD, ~$600 exposure), stop
+  **56,200**, take-profit 250,000 (eToro rejected the order without a take-profit, error 721).
+  eToro caps the stop at 50% of margin measured from the price when the order is placed (~74,800),
+  so 56,200 was the furthest allowed; once filled, the stop may be widened if eToro allows and the
+  account holder asks. Loss if stopped ~−$71 + fees; overnight ~$0.32/night once filled.
+- Pending orders reserve their cash on eToro: available cash went $903.47 → ~$297. Daily trades
+  continue with what is left ($30 risk, margin must fit). Cancel an unfilled order only on the
+  account holder's say. Report both orders' status in the Monday and Friday checks.
+
 ## Position trades (from 30 Oct 2026, account holder's yes)
 
 - Weekly-chart breakouts held for weeks to months (watchlist in FUTURE_SETUPS.md: MS, BX, GEV,
