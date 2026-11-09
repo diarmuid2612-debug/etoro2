@@ -41,7 +41,7 @@ size. Nothing is placed or changed without the account holder's explicit yes.
 
 - These rules apply to trades. Positions the account holder has designated as
   long-term holdings are exempt from the stop-loss rules above.
-- Current long-term holdings: SUI, HYPE, NEAR and BTC (including the 2x BTC position from 4 Nov 2026). (PUMP was sold in full on 20 Oct 2026 at
+- Current long-term holdings: SUI, HYPE, NEAR and BTC (the 2x BTC position from 4 Nov 2026 was closed on 9 Nov). (PUMP was sold in full on 20 Oct 2026 at
   about 0.004546, 73,851.55 units, about −$11.40, to fund an IO breakout buy; the IO MIT order
   at 0.172 was rejected by eToro (error 814, "Instrument internal only"; IO is not tradable
   for the account holder on eToro). The proceeds went into SUI the same day: position
@@ -224,6 +224,12 @@ When a holding or a candidate moves sharply, find the reason before judging it:
   Log every idea and result in TRADE_LOG.md (eToro daily section).
 
 ## BTC 2x hold with the whole pot (4 Nov 2026, account holder's yes; replaces the crypto switch rule)
+
+- **CLOSED 9 Nov 2026 ~13:08 UTC** on the account holder's "close the btc trade", after the weekly
+  close of 74,034 (below the 74,700 decision level). Close order 1636084035 at ~74,800, P&L about
+  −$90 on price; Trading cash went from $1,038.67 to **$903.47**: about **−$135 in all** (fees and
+  overnight included). Cash is idle again; the 07:15/16:00 scans stay paused until the account
+  holder asks. The notes below are kept as history.
 
 - 4 Nov 2026 09:27 UTC: the account holder chose to put all available cash into BTC at 2x and hold
   it long-term, adding when spare cash comes in ("buy BTC with 2x leverage and without a stop,
