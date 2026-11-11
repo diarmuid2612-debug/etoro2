@@ -89,3 +89,21 @@ higher 6 months later in 5 (median ~+12%); the 2 failures (2011, 2018) re-tighte
 
 **Where he is wrong (2018 path):** the Fed hikes in December (FOMC 9–10 Dec), the dollar breaks
 back above 102, the 2-year pushes higher. Then conditions re-tighten and the base takes longer.
+
+## Jamie Coutts "Alpha Crypto Pulse" 11 Nov 2026 (shared by the account holder)
+
+- More cautious: margin-debt velocity confirmed a rollover in Sept (past confirmations: median
+  S&P 500 fall 12% within a year, 21% within two). Took profit on a position +100%; holding more
+  cash. Base case: the liquidity trough resolves late Q1 2027.
+- BTC levels: market regime filter **72,049**, 10-month average 72,470, 300-day average 73,390
+  (all within ~4% of price). Below **70,000** with a weekly Trend Chameleon reversal and the
+  filter turning down = doubt the July low. Below **60,000** = likely capitulation low (liquidity
+  response closer). Above **86,000** (Sept high) with the filter holding = bull cycle confirmed.
+- Cost bases: short-term holders ~75,600, ETF buyers ~84,500, realized price ~54,000.
+- Gauges: valuation fair and turning up, trend "uptrend, momentum lost" (one step from a
+  downtrend), derivatives neutral; a derivatives washout would be the strongest buy signal.
+- Warning light: USD stablecoin supply $293B, −6% in 30 days (fastest since Terra, May 2022).
+- Liquidity-response checklist (his): MOVE, 10y yield, inflation expectations and stress index
+  moving the right way; the dollar (101.7) and repo stress are the holdouts.
+- Altcoins: only ~2.5% of the top 50 in a Trend Chameleon uptrend; he only holds alts when BTC is
+  above the regime filter and the alt's own trend is up.
