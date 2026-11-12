@@ -259,6 +259,7 @@ When a holding or a candidate moves sharply, find the reason before judging it:
   green on the Raoul turn checklist in LIQUIDITY_LOG.md).
 - Part 1: MIT order **1637288815**, buy $300 BTC at **72,400**, 1x (real BTC, settlementType REAL),
   no stop, no take-profit. Long-term holding once filled.
+  **FILLED 12 Nov 2026 13:09 UTC: position 3634861712, 0.004144 BTC at 72,381.4, $299.95.**
 - Part 2: MIT order **1636897214**, buy $300 BTC at **65,000**, 2x (CFD, ~$600 exposure), stop
   **56,200**, take-profit 250,000 (eToro rejected the order without a take-profit, error 721).
   eToro caps the stop at 50% of margin measured from the price when the order is placed (~74,800),
