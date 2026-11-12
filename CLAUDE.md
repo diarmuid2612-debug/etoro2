@@ -207,8 +207,12 @@ When a holding or a candidate moves sharply, find the reason before judging it:
   GER40 (32), GOLD (18) and oil; **no crypto trading for now**. Setups on the 4H/daily charts,
   typically resolving in 1–4 days. While a trade is open, the report gives its status instead.
 - Setups: breakout -> retest -> confirmation, or sweep and reversal, on the daily/4H charts.
-  Structural stop (rules 1 and Entry above). **Minimum 4:1 reward to risk** (account
-  holder's choice). No setup that meets the bar = "no trade today"; never lower the bar.
+  Structural stop (rules 1 and Entry above). **Minimum 3:1 reward to risk**, or **2.5:1 for an
+  A-grade setup** (lowered from 4:1 on 12 Nov 2026 by the account holder, after 26 scans with no
+  trade and many near misses at 2.6–3.9:1). A-grade = a daily close confirms the breakout (or the
+  sweep reversal), the retest held, and the trade is in the 4H trend direction; label it
+  "A-grade" in the report and say why. No setup that meets the bar = "no trade today"; never
+  lower the bar further.
 - **Risk per trade: $30** (3% of the pot; default proposed 27 Oct, change only on the
   account holder's say). Size = $30 ÷ stop distance; leverage only as needed for the
   margin to fit the pot (indices/gold up to 20x).
@@ -300,7 +304,8 @@ When a holding or a candidate moves sharply, find the reason before judging it:
   1-hour charts, in the 4H trend direction. Levels: the US session high and low so far, the
   previous day's high and low, and the pre-market range. Structural stop beyond the retest zone
   and the latest swing.
-- **Minimum 3:1 reward to risk** (4:1 stays for the morning swing trade). **Risk $30** per trade,
+- **Minimum 2.5:1 reward to risk** (lowered from 3:1 on 12 Nov 2026 by the account holder).
+  **Risk $30** per trade,
   from the same $1,000 pot. Size = $30 ÷ stop distance.
 - Same-day only: close by 15 minutes before the US cash close (19:45 Irish until 1 Nov 2026,
   20:45 Irish from 2 Nov). Stop-loss and take-profit attached; no overnight holds.
