@@ -255,16 +255,16 @@ When a holding or a candidate moves sharply, find the reason before judging it:
 ## BTC staged re-entry (9 Nov 2026, account holder's yes; $300 each from the trading pot)
 
 - Plan: three parts. Part 1 at the May low (~72,400) at **1x**; part 2 at the March/April lows
-  (~65,000) at **2x**; part 3 decided later (a BTC weekly close above 80,300 and/or 3 of 5
+  (~65,000) at **1x** (changed from 2x on 12 Nov); part 3 decided later (a BTC weekly close above 80,300 and/or 3 of 5
   green on the Raoul turn checklist in LIQUIDITY_LOG.md).
 - Part 1: MIT order **1637288815**, buy $300 BTC at **72,400**, 1x (real BTC, settlementType REAL),
   no stop, no take-profit. Long-term holding once filled.
   **FILLED 12 Nov 2026 13:09 UTC: position 3634861712, 0.004144 BTC at 72,381.4, $299.95.**
-- Part 2: MIT order **1636897214**, buy $300 BTC at **65,000**, 2x (CFD, ~$600 exposure), stop
-  **56,200**, take-profit 250,000 (eToro rejected the order without a take-profit, error 721).
-  eToro caps the stop at 50% of margin measured from the price when the order is placed (~74,800),
-  so 56,200 was the furthest allowed; once filled, the stop may be widened if eToro allows and the
-  account holder asks. Loss if stopped ~−$71 + fees; overnight ~$0.32/night once filled.
+- Part 2: MIT order **1640672212**, buy $300 BTC at **65,000**, **1x** (real BTC, settlementType REAL),
+  no stop, no take-profit; fee ~$2.97 when filled, no overnight fee. Long-term holding once filled.
+  Changed 12 Nov 2026 17:25 UTC on the account holder's yes ("change to 1x"): the earlier 2x order
+  1636897214 (stop 56,200, TP 250,000) was cancelled because BTC fell below Coutts' 72,049 regime
+  filter and liquidity was re-tightening, so a 2x stop could be hit in a capitulation wick.
 - Pending orders reserve their cash on eToro: available cash went $903.47 → ~$297. Daily trades
   continue with what is left ($30 risk, margin must fit). Cancel an unfilled order only on the
   account holder's say. Report both orders' status in the Monday and Friday checks.
