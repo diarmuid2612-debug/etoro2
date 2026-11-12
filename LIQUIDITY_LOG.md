@@ -107,3 +107,9 @@ back above 102, the 2-year pushes higher. Then conditions re-tighten and the bas
   moving the right way; the dollar (101.7) and repo stress are the holdouts.
 - Altcoins: only ~2.5% of the top 50 in a Trend Chameleon uptrend; he only holds alts when BTC is
   above the regime filter and the alt's own trend is up.
+
+### 12 Nov 2026 (interim, account holder asked) — turn checklist 0–1 of 5
+- Excess liquidity **−2.03pp** (4 Nov; next Fed H.4.1 tonight). DXY **102.84**, broke back above
+  102 (Raoul's and Coutts' "where I'm wrong" signal). 2-year 4.56 vs fed funds 3.88 = **+68bp**
+  (worse than +58). 2s10s **25bp** (flatter, worse). HY spread 3.30% (slightly better).
+  BTC ~71,300, below Coutts' 72,049 regime filter. Verdict: re-tightening, the 2018-style risk.
