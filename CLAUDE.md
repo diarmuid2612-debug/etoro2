@@ -273,6 +273,25 @@ When a holding or a candidate moves sharply, find the reason before judging it:
   continue with what is left ($30 risk, margin must fit). Cancel an unfilled order only on the
   account holder's say. Report both orders' status in the Monday and Friday checks.
 
+## Weekend crypto trades (14–15 Nov 2026, account holder's request; chart-only)
+
+- The account holder lifted the crypto pause for the weekend of 14–15 Nov 2026: "a few crypto trades
+  over the weekend based solely on the charts". Venue: the eToro pot (~$300 free cash).
+- **Fees decide everything:** eToro charges ~1% of exposure to open a crypto position (preview:
+  $4.90 on $500) and ~1% to close, so ~2% round trip. Model it in `tools/trade_check.py` as
+  `--spread` = 0.02 × entry. A trade qualifies only at **2.5:1 after fees**. Example (13 Nov): a BTC
+  short at 69,800, stop 70,700, target 67,700 is 2.3:1 before fees but 0.31:1 after them. In
+  practice only setups with a wide stop and a much bigger move qualify: daily/4H structure, stop
+  ~4–8%, target ~15–25%. Expect few or none; never lower the bar.
+- Shorts allowed on BTC, ETH, SOL, XRP, DOGE, LINK (1x or 2x); SUI, HYPE, NEAR, AVAX are long
+  only. A short on BTC runs against the long-term BTC holding and the 65,000 part-2 buy order; the
+  target must sit above 65,000.
+- Risk **$30** per trade (size = $30 ÷ stop distance including fees), margin must fit free cash
+  (2x max). At most **3 trades** over the weekend, one open at a time; stop after 2 losses.
+  Stop-loss and take-profit attached; each trade needs the account holder's explicit yes. Close
+  or review anything still open by Sunday 21:00 Irish (the account holder decides whether to hold).
+- Log in TRADE_LOG.md (eToro daily section, marked "Weekend crypto").
+
 ## Position trades (from 30 Oct 2026, account holder's yes)
 
 - Weekly-chart breakouts held for weeks to months (watchlist in FUTURE_SETUPS.md: MS, BX, GEV,
