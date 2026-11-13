@@ -297,6 +297,15 @@ When a holding or a candidate moves sharply, find the reason before judging it:
 
 - The account holder finishes work at 16:00 Irish and can watch the US session after that. A scan
   runs every weekday at about 15:50 so an idea is ready by 16:00.
+- **Pre-open scan at 13:45 Irish** (added 13 Nov 2026, account holder's yes, after missing the
+  13 Nov Nasdaq sell from the 28,400–28,500 ceiling that formed between the 07:15 and 16:00 scans).
+  Same rules as this section (day trade, 2.5:1, $30 risk, close by 20:45); levels include the
+  London session high/low. The account holder approves from their phone at work, so the order
+  goes in with stop-loss and take-profit attached. No entry until 30 minutes after a 13:30 US
+  data release.
+- **No directional bias** (13 Nov 2026): trade the 4H trend either way, shorts on the Nasdaq
+  included. The earlier "lean long, avoid shorting the Nasdaq while positioning is net short"
+  guidance is dropped.
 - Markets: Mag 7 stocks (AAPL 1001, MSFT 1004, NVDA 1137, GOOGL 6434, AMZN 1005, META 1003,
   TSLA 1111; stocks up to 5x) and NSDQ100 (28), SPX500 (27), DJ30 (29) (indices up to 20x).
   Nasdaq, S&P 500 and Dow move together: one of them at a time.
