@@ -266,7 +266,7 @@ When a holding or a candidate moves sharply, find the reason before judging it:
   **FILLED 12 Nov 2026 13:09 UTC: position 3634861712, 0.004144 BTC at 72,381.4, $299.95.**
 - Part 2 (14 Nov 2026, account holder's "option A"): split into two 1x MIT orders, real BTC, no stop,
   no take-profit, ~$1.48 fee each when filled: **1640673000** $150 at **66,500** (retest of this
-  week's 66,397 bounce off the 200-week average) and **1642489091** $150 at **65,000** (a normal
+  week's 66,397 bounce off the 200-week average) — **FILLED 14 Nov 2026 13:25 UTC: position 3636716029, 0.002255 BTC at 66,498.01, $149.95** and **1642489091** $150 at **65,000** (a normal
   dip under the 200-week average). They replace 1640672212 ($300 at 65,000, cancelled 14 Nov),
   which had replaced the 2x order 1636897214 on 12 Nov.
 - 200-week average (eToro weekly closes): ~67,300 on 14 Nov 2026, rising ~200/week. In 2026 it was
