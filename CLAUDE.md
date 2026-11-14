@@ -259,16 +259,23 @@ When a holding or a candidate moves sharply, find the reason before judging it:
 ## BTC staged re-entry (9 Nov 2026, account holder's yes; $300 each from the trading pot)
 
 - Plan: three parts. Part 1 at the May low (~72,400) at **1x**; part 2 at the March/April lows
-  (~65,000) at **1x** (changed from 2x on 12 Nov); part 3 decided later (a BTC weekly close above 80,300 and/or 3 of 5
+  (~65,000) at **1x** (changed from 2x on 12 Nov; split 66,500/65,000 on 14 Nov); part 3 decided later (a BTC weekly close above 80,300 and/or 3 of 5
   green on the Raoul turn checklist in LIQUIDITY_LOG.md).
 - Part 1: MIT order **1637288815**, buy $300 BTC at **72,400**, 1x (real BTC, settlementType REAL),
   no stop, no take-profit. Long-term holding once filled.
   **FILLED 12 Nov 2026 13:09 UTC: position 3634861712, 0.004144 BTC at 72,381.4, $299.95.**
-- Part 2: MIT order **1640672212**, buy $300 BTC at **65,000**, **1x** (real BTC, settlementType REAL),
-  no stop, no take-profit; fee ~$2.97 when filled, no overnight fee. Long-term holding once filled.
-  Changed 12 Nov 2026 17:25 UTC on the account holder's yes ("change to 1x"): the earlier 2x order
-  1636897214 (stop 56,200, TP 250,000) was cancelled because BTC fell below Coutts' 72,049 regime
-  filter and liquidity was re-tightening, so a 2x stop could be hit in a capitulation wick.
+- Part 2 (14 Nov 2026, account holder's "option A"): split into two 1x MIT orders, real BTC, no stop,
+  no take-profit, ~$1.48 fee each when filled: **1640673000** $150 at **66,500** (retest of this
+  week's 66,397 bounce off the 200-week average) and **1642489091** $150 at **65,000** (a normal
+  dip under the 200-week average). They replace 1640672212 ($300 at 65,000, cancelled 14 Nov),
+  which had replaced the 2x order 1636897214 on 12 Nov.
+- 200-week average (eToro weekly closes): ~67,300 on 14 Nov 2026, rising ~200/week. In 2026 it was
+  tested in Jun–Aug (dips 4–7% under, one weekly close 4% under) and held; a 2022-style break went
+  25–30% under for ~9 months. Normal dips = 62,600–66,000; a break = 47,000–50,500.
+- Deposit plan (14 Nov 2026, account holder plans to deposit over the next weeks): split each
+  deposit in thirds, all 1x: ⅓ at market while BTC is 60,000–72,000, ⅓ MIT ~62,000, ⅓ MIT
+  58,000–60,000. No leverage on accumulation (2x costs ~39%/yr of margin in overnight fees and
+  forces a stop near 50,000). Keep long-term buys separate from the ~$300 trading cash.
 - Pending orders reserve their cash on eToro: available cash went $903.47 → ~$297. Daily trades
   continue with what is left ($30 risk, margin must fit). Cancel an unfilled order only on the
   account holder's say. Report both orders' status in the Monday and Friday checks.
