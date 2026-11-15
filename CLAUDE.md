@@ -269,7 +269,7 @@ When a holding or a candidate moves sharply, find the reason before judging it:
   week's 66,397 bounce off the 200-week average) — **FILLED 14 Nov 2026 13:25 UTC: position 3636716029, 0.002255 BTC at 66,498.01, $149.95** and **1642489091** $150 at **65,000** (a normal
   dip under the 200-week average) — **FILLED 14 Nov 2026 16:49 UTC: position 3636732459, 0.002307 BTC at 64,992.76, $149.94**.
 - Part 3 (deeper buys, 14 Nov 2026 17:25 UTC, account holder's yes, from the remaining trading cash $297.63): 1x MIT,
-  real BTC, no stop: **1640699030** $147 at **62,000** and **1640699031** $147 at **59,000**. Free cash ~$0.70
+  real BTC, no stop: **1640699030** $147 at **62,000** (**FILLED 15 Nov 2026 01:45 UTC: position 3636767293, 0.002371 BTC at 61,993.91, $146.99**; the overnight low was 61,979) and **1640699031** $147 at **59,000**. Free cash ~$0.70
   afterwards: no room for pot day trades until an order fills/cancels or a deposit lands (the scans still
   report setups). The 80,300 / Raoul-checklist trigger stays as the later 'trend has turned' add. They replace 1640672212 ($300 at 65,000, cancelled 14 Nov),
   which had replaced the 2x order 1636897214 on 12 Nov.
