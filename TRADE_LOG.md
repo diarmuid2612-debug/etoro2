@@ -13,6 +13,11 @@ skipped setups worth noting. Max run (R) = how far price went in our favour befo
 | 1 | 2026-10-20 | GER40 | real | London/midday (placed 12:31 Irish) | B (breakdown and retest) | Sells (4H lower highs 25,695→25,268, lower lows 25,177→25,050) | MIT sell 25,165 (order 1617212243) – no fill | 25,205 | 25,055 | 2.75:1 | no fill | 0 | – | Test trade, 0.06 units at 20x (~$1,508 exposure, ~$76 margin), risk ~$2.40. Yesterday's low 25,177 broke on the 08:00 1H close; first retest 25,170 at ~09:30 rejected, lower high 25,153. Trading pause lifted for this one trade at the account holder's request; SUI 0.90 MIT cancelled to free margin. Outcome: at the US open (14:30–14:45 Irish) price rose through 25,165 to 25,183 and on to 25,232, above the stop – the breakdown failed (25,177 reclaimed). The order never opened a position (eToro lookup stuck on 'pending' from 14:35; app showed no order). Cancelled ~15:05 Irish. Lesson: retests into the US open can run straight through; had it filled it would have been a −1R loss. |
 
 
+## Demo trial (from 17 Nov 2026; demo account, placed without asking; review after 10 trades)
+
+| # | Date | Market | Setup | Label | Entry | Stop | Target | Planned R:R | Result (R) | Result ($) | Notes |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+
 ## Coinbase trade of the day (from 26 Oct 2026)
 
 | Date | Coin | Converted from | Ceiling / retest | Entry | Stop | Target | R:R | Size | Result | Notes |

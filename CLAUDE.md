@@ -361,6 +361,37 @@ When a holding or a candidate moves sharply, find the reason before judging it:
 - Placed only after the account holder's explicit yes. Log in TRADE_LOG.md (eToro daily section,
   marked "PM").
 
+## Demo trial: one trade a day, placed without asking (from 17 Nov 2026, account holder's yes)
+
+- Account holder (17 Nov 2026): "start putting on at least one trade every day in the demo portfolio
+  and let's review after 10 trades". This is a **standing approval for the eToro DEMO account only**:
+  Claude places, manages and closes demo trades on its own, with no yes needed. The real account is
+  unchanged: every real trade still needs the account holder's explicit yes.
+- Always pass `account: "demo"` to prepare-trade / prepare-close and to the position reads. Check
+  this before every place call. Never place anything on the real account under this section.
+- **At least one demo trade every weekday** (markets open). Markets: NSDQ100 28, SPX500 27, DJ30 29,
+  GER40 32, GOLD 18, OIL 17 and the Mag 7 stocks (demo, so the W-8BEN form does not block it).
+- **Sizing as if real** so the results carry over: $30 risk per trade, size = $30 ÷ (stop distance +
+  spread), margin must fit a $1,000 pot, leverage up to 20x indices/gold, 5x stocks.
+- Which trade:
+  1. 07:15 scan: if a setup meets the normal bar (3:1, or 2.5:1 A-grade), place it on demo at once
+     (market if price is at the entry, else MIT at the retest), labelled **"meets bar"**.
+  2. If nothing has been placed by the 13:45 scan, take the best setup that has a real structural stop
+     and at least **2:1** after the spread, labelled **"below bar"**. If still nothing, the 16:00 scan
+     must take the best one (still 2:1 minimum, structural stop). Never trade without a stop-loss and
+     take-profit attached.
+  3. Stop and target come from the chart (rules 1 and Entry above). Skip entries from 30 minutes before
+     to 30 minutes after high-impact data, as on the real account.
+- One demo trade open at a time (a second one only if the first closed the same day).
+- Day trades close by 20:45 Irish; a morning swing trade may run 1–4 days on its stop and target
+  (note big events it holds through, e.g. Nvidia results). The 20:40 demo check closes day trades still
+  open and cancels unfilled MIT orders from that day.
+- After placing: read the demo positions/orders, confirm the exact stop and target, report the id.
+- Log every demo trade in TRADE_LOG.md ("Demo trial" section): date, market, setup, label (meets bar /
+  below bar), entry, stop, target, planned R:R, result in R and $, notes.
+- **Review after 10 closed trades**: win rate, average R, total $, "meets bar" vs "below bar", what
+  stopped out and why. Then the account holder decides on any change (rules, a real Agent Portfolio).
+
 ## Pre-trade checklist (from 30 Oct 2026, account holder: "no mistakes")
 
 Every pot trade (morning or afternoon) passes three checks before it is shown, and the
