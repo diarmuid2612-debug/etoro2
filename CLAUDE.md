@@ -384,8 +384,16 @@ When a holding or a candidate moves sharply, find the reason before judging it:
      to 30 minutes after high-impact data, as on the real account.
 - One demo trade open at a time (a second one only if the first closed the same day).
 - Day trades close by 20:45 Irish; a morning swing trade may run 1–4 days on its stop and target
-  (note big events it holds through, e.g. Nvidia results). The 20:40 demo check closes day trades still
-  open and cancels unfilled MIT orders from that day.
+  (note big events it holds through, e.g. Nvidia results). The **20:25 close-out** closes day trades still
+  open and cancels unfilled MIT orders from that day; a **20:50 backup** closes anything it missed.
+- **Close-out safeguards** (17 Nov 2026, after trade #1 was +$22.60 at 20:41 but the close token expired
+  during a worker restart and the trade was stopped at 21:02 for −$32.29):
+  - Closing comes first: prepare-close and place-close back to back, no other call between them; if the
+    token expired, prepare a fresh one at once and repeat until the position is confirmed closed.
+  - After any session/worker restart, the first action is get-my-positions-and-orders on "demo": finish
+    any interrupted close (or a close past its deadline) before anything else.
+  - No new demo day-trade entry after **19:30 Irish**, so the close-out always has margin; a setup after
+    that waits for the next day.
 - After placing: read the demo positions/orders, confirm the exact stop and target, report the id.
 - Log every demo trade in TRADE_LOG.md ("Demo trial" section): date, market, setup, label (meets bar /
   below bar), entry, stop, target, planned R:R, result in R and $, notes.
