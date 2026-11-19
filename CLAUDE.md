@@ -280,6 +280,8 @@ When a holding or a candidate moves sharply, find the reason before judging it:
   deposit in thirds, all 1x: ⅓ at market while BTC is 60,000–72,000, ⅓ MIT ~62,000, ⅓ MIT
   58,000–60,000. No leverage on accumulation (2x costs ~39%/yr of margin in overnight fees and
   forces a stop near 50,000). Keep long-term buys separate from the ~$300 trading cash.
+- 19 Nov 2026: the 59,000 order (1640699031) is gone (the account holder freed the cash); Trading
+  cash was $410.91 before the gold trade. The scans read the real free cash each time.
 - 16 Nov 2026 (account holder: "keep checking for trades, if something comes up I may deposit or free up
   cash"): the 07:15, 13:45 and 16:00 scans run in full even with ~$0 free cash. A qualifying setup is
   presented with the margin it needs and how to fund it (cancel the 59,000 BTC order, ~$148, or a
@@ -362,6 +364,13 @@ When a holding or a candidate moves sharply, find the reason before judging it:
   marked "PM").
 
 ## Demo trial: one trade a day, placed without asking (from 17 Nov 2026, account holder's yes)
+
+- **PAUSED 19 Nov 2026** (account holder's yes): session restarts kept expiring order tokens and
+  delaying close-outs, and the demo quote feed went stale twice. Result so far: 2 trades closed,
+  1 win (+$52.83), 1 loss (−$32.29), +$20.54. The 20:25/20:50 demo close-outs are disabled and the
+  scans place no demo trades. To restart it, the account holder creates the fresh-session routines in
+  ROUTINES.md (they need the eToro connector, which only the account holder can attach). The rules
+  below stay on file for then.
 
 - Account holder (17 Nov 2026): "start putting on at least one trade every day in the demo portfolio
   and let's review after 10 trades". This is a **standing approval for the eToro DEMO account only**:
