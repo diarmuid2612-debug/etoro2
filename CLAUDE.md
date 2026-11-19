@@ -383,6 +383,17 @@ When a holding or a candidate moves sharply, find the reason before judging it:
   3. Stop and target come from the chart (rules 1 and Entry above). Skip entries from 30 minutes before
      to 30 minutes after high-impact data, as on the real account.
 - One demo trade open at a time (a second one only if the first closed the same day).
+- **Waiting MIT orders at levels** (19 Nov 2026, account holder's yes; the charts are only read at the
+  scans, so eToro watches the level in between): when a scan sees a setup forming (a level that, if
+  price comes back to it and holds, gives at least 2:1 after the spread with a structural stop), place
+  a demo MIT entry at that level with stop-loss and take-profit attached, without asking. Label it as
+  usual ("meets bar" if the full rules are met at the trigger, else "below bar"). At most **2 waiting
+  demo MITs** at a time, not two on the Nasdaq/S&P/Dow group. When one fills, cancel the others at
+  once (one open trade at a time). Re-check waiting MITs at every scan: cancel any whose setup is gone
+  (level broken through, structure changed, or a data release due before it could fill). Unfilled MITs
+  are cancelled at the 20:25 close-out (20:50 backup); no MIT entry may trigger after 19:30.
+- An MIT that never fills does not count as the day's trade: if none has filled by the 16:00 scan, that
+  scan still places one (market, or an MIT it judges likely to fill before 19:30).
 - Day trades close by 20:45 Irish; a morning swing trade may run 1–4 days on its stop and target
   (note big events it holds through, e.g. Nvidia results). The **20:25 close-out** closes day trades still
   open and cancels unfilled MIT orders from that day; a **20:50 backup** closes anything it missed.
