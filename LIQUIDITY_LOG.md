@@ -114,3 +114,15 @@ back above 102, the 2-year pushes higher. Then conditions re-tighten and the bas
   102 (Raoul's and Coutts' "where I'm wrong" signal). 2-year 4.56 vs fed funds 3.88 = **+68bp**
   (worse than +58). 2s10s **25bp** (flatter, worse). HY spread 3.30% (slightly better).
   BTC ~71,300, below Coutts' 72,049 regime filter. Verdict: re-tightening, the 2018-style risk.
+
+### 20 Nov 2026 (weekly) — turn checklist 0 of 5
+- Excess liquidity **−2.50pp** (18 Nov; proxy 25,908bn, YoY 5.60%, 6m ann 3.37% vs nominal GDP 5.87%):
+  worse than −1.88 a week ago and −1.55 the week before. Not turning up.
+- DXY (eToro USDOLLAR) **103.53**, near its high (103.6), above 102 and far from 100. 2-year 4.80 vs
+  fed funds 3.88 = **+92bp** (was +98; still pricing hikes). 2s10s **28bp** (flat; 27–30, no front-end
+  steepening). HY spread **3.47%** (widening from 3.23–3.34, still under 4%). FCI: not available.
+  BTC ETF flows and Dec FOMC odds: not fetched this week.
+- BTC **61,846**: ~8% under the 200-week average (~67,500), under Coutts' 72,049 filter and the 80,300
+  trigger, and just through the 15 Nov swing low (61,979). Five 1x positions, $890.81 in, **−$95.16**.
+  No BTC orders pending. Overnight 19–20 Nov risk-off: Nasdaq 26,199, gold −4.5% to 3,514.
+- Verdict: liquidity still tightening, 0 of 5 green. No 'trend has turned' add.
