@@ -280,6 +280,12 @@ When a holding or a candidate moves sharply, find the reason before judging it:
   deposit in thirds, all 1x: ⅓ at market while BTC is 60,000–72,000, ⅓ MIT ~62,000, ⅓ MIT
   58,000–60,000. No leverage on accumulation (2x costs ~39%/yr of margin in overnight fees and
   forces a stop near 50,000). Keep long-term buys separate from the ~$300 trading cash.
+- 20 Nov 2026 dip buys (account holder's yes, all 1x, no stops, long-term; used the ~$411 trading cash):
+  **BTC $150 at market: position 3642951298, 0.00253 BTC at 59,279.08** (fee $1.50); MIT orders
+  **1649734085 BTC $100 at 50,500** (top of the 47–50.5k break zone), **1649734087 HYPE $80 at 60.5**
+  (retest of the 60.0 low of 14 Nov), **1647455531 NEAR $78 at 2.45** (top of zone 2). SUI skipped
+  (largest holding, at the 0.635 stop-adding line). Free cash ~$1: no room for pot trades until a
+  deposit or a cancel.
 - 19 Nov 2026: the 59,000 order (1640699031) is gone (the account holder freed the cash); Trading
   cash was $410.91 before the gold trade. The scans read the real free cash each time.
 - 16 Nov 2026 (account holder: "keep checking for trades, if something comes up I may deposit or free up
