@@ -5,6 +5,13 @@ accounts. Read them before suggesting any trade or changing any stop-loss.
 
 Longer-term ideas to watch are in `FUTURE_SETUPS.md`. Check their triggers during scans.
 
+## Phone notifications (21 Nov 2026, account holder's request)
+
+- The account holder gets no alert when a message lands in this chat. Send a short PushNotification
+  (one line, under 200 characters, what to act on first) for: a trade proposal that needs a yes, an
+  order filled, a stop or target hit, an order placed/cancelled on the account holder's behalf, and
+  anything that needs a decision. Not for routine "no trade" scans or quiet checks.
+
 ## 1. The chart sets the stop
 
 - Before any trade, read the daily chart and find the relevant structure:
