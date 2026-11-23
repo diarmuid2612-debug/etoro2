@@ -1,0 +1,67 @@
+team,league,played,goals_for,goals_against,league_avg_goals_per_team,estimated,as_of
+PSV,Eredivisie,12,40,15,1.85,,2026-11-08
+Feyenoord,Eredivisie,12,36,17,1.85,,2026-11-08
+NEC,Eredivisie,12,20,21,1.85,,2026-11-08
+Cambuur,Eredivisie,12,25,27,1.85,,2026-11-08
+Groningen,Eredivisie,12,29,28,1.85,,2026-11-08
+Heerenveen,Eredivisie,12,24,16,1.85,,2026-11-08
+Excelsior,Eredivisie,12,16,29,1.85,,2026-11-08
+Utrecht,Eredivisie,12,21,34,1.85,,2026-11-08
+Paris St-G,Ligue 1,10,22,10,1.45,,2026-11-08
+Nice,Ligue 1,10,15,12,1.45,,2026-11-08
+Lille,Ligue 1,10,14,7,1.45,,2026-11-08
+Lyon,Ligue 1,10,15,9,1.45,,2026-11-08
+Lens,Ligue 1,10,17,15,1.45,,2026-11-08
+Toulouse,Ligue 1,10,15,14,1.45,,2026-11-08
+Monaco,Ligue 1,10,13,11,1.45,,2026-11-08
+Auxerre,Ligue 1,10,13,24,1.45,,2026-11-08
+Strasbourg,Ligue 1,10,18,22,1.45,,2026-11-08
+Brest,Ligue 1,10,18,12,1.45,,2026-11-08
+Marseille,Ligue 1,10,22,14,1.45,,2026-11-08
+Paris FC,Ligue 1,10,17,10,1.45,,2026-11-08
+Rennes,Ligue 1,10,21,21,1.45,,2026-11-08
+Lorient,Ligue 1,10,9,8,1.45,,2026-11-08
+Troyes,Ligue 1,10,7,17,1.45,,2026-11-08
+Le Havre,Ligue 1,10,9,22,1.45,,2026-11-08
+Roma,Serie A,11,31,10,1.30,,2026-11-08
+Napoli,Serie A,11,18,14,1.30,,2026-11-08
+Torino,Serie A,11,15,17,1.30,,2026-11-08
+Inter,Serie A,11,28,13,1.30,,2026-11-08
+Juventus,Serie A,11,15,12,1.30,,2026-11-08
+Atalanta,Serie A,11,17,20,1.30,,2026-11-08
+Lazio,Serie A,12,26,9,1.30,,2026-11-08
+AC Milan,Serie A,11,23,13,1.30,,2026-11-08
+Frosinone,Serie A,11,24,15,1.30,,2026-11-08
+Bologna,Serie A,11,16,14,1.30,,2026-11-08
+Genoa,Serie A,11,11,16,1.30,,2026-11-08
+Monza,Serie A,11,17,25,1.30,,2026-11-08
+Fiorentina,Serie A,11,17,25,1.30,,2026-11-08
+Barcelona,La Liga,12,48,13,1.40,,2026-11-08
+Real Madrid,La Liga,12,31,10,1.40,,2026-11-08
+Betis,La Liga,12,20,15,1.40,,2026-11-08
+Sevilla,La Liga,12,17,19,1.40,,2026-11-08
+Celta Vigo,La Liga,12,10,10,1.40,,2026-11-08
+Athletic Bilbao,La Liga,11,15,11,1.40,,2026-11-08
+Espanyol,La Liga,12,13,14,1.40,,2026-11-08
+Levante,La Liga,12,16,21,1.40,,2026-11-08
+Elche,La Liga,12,14,20,1.40,,2026-11-08
+Bayern Munich,Bundesliga,9,29,9,1.55,,2026-11-08
+Dortmund,Bundesliga,9,16,7,1.55,,2026-11-08
+Freiburg,Bundesliga,9,20,10,1.55,,2026-11-08
+RB Leipzig,Bundesliga,9,27,13,1.55,,2026-11-08
+Leverkusen,Bundesliga,9,20,17,1.55,,2026-11-08
+Celtic,Scottish Premiership,13,28,10,1.40,,2026-11-08
+Rangers,Scottish Premiership,12,21,9,1.40,,2026-11-08
+Hearts,Scottish Premiership,12,26,22,1.40,,2026-11-08
+Motherwell,Scottish Premiership,12,14,20,1.40,,2026-11-08
+Aberdeen,Scottish Premiership,12,12,18,1.40,yes,2026-11-08
+Hibernian,Scottish Premiership,12,15,17,1.40,yes,2026-11-08
+Falkirk,Scottish Premiership,13,20,14,1.40,,2026-11-08
+Dundee Utd,Scottish Premiership,12,17,17,1.40,,2026-11-08
+St Johnstone,Scottish Premiership,13,17,20,1.40,,2026-11-08
+Dundee,Scottish Premiership,12,18,15,1.40,,2026-11-08
+St Mirren,Scottish Premiership,13,12,22,1.40,,2026-11-08
+Kilmarnock,Scottish Premiership,13,13,29,1.40,,2026-11-08
+Liverpool,Premier League,10,14,10,1.40,,2026-11-20
+Man Utd,Premier League,10,14,19,1.40,,2026-11-20
+Arsenal,Premier League,10,15,5,1.40,,2026-11-10

@@ -1,0 +1,5 @@
+config.ini
+output/
+certs/
+*.crt
+*.key
