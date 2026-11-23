@@ -67,7 +67,20 @@ def find_team(name, teams):
     if key in teams:
         return key
     match = difflib.get_close_matches(key, teams.keys(), n=1, cutoff=0.8)
-    return match[0] if match else None
+    if match:
+        return match[0]
+    # Betfair often adds a prefix or suffix ("AC Monza", "FC Utrecht", "Celtic FC"):
+    # accept a team name that appears as whole words inside the Betfair name, or vice versa.
+    words = set(key.replace("-", " ").split())
+    # Never map youth, reserve or women's sides onto a senior team's data.
+    if words & {"u18", "u19", "u20", "u21", "u23", "ii", "b", "w", "women", "reserves", "res", "jong"}:
+        return None
+    for team in teams:
+        team_words = set(team.replace("-", " ").split())
+        shorter, longer = sorted((team_words, words), key=len)
+        if shorter and shorter <= longer and len(" ".join(shorter)) >= 4:
+            return team
+    return None
 
 
 def load_config():
