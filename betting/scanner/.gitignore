@@ -3,3 +3,4 @@ output/
 certs/
 *.crt
 *.key
+__pycache__/
