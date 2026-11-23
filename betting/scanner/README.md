@@ -28,6 +28,14 @@ rates every line with our goals model, and prints the bets that pass the rules
 
 ## Every day
 
+**Double-click `run_scan.bat`** in this folder. It asks for your Betfair password,
+runs the scan and waits until you press a key. (Tip: right-click it → Send to → Desktop (create shortcut).)
+
+**Double-click `update_scanner.bat`** whenever Claude says the scanner or team data has been updated.
+It downloads the latest `scan.py`, `teams.csv` and `run_scan.bat`; your `config.ini` is not touched.
+
+Or from PowerShell in this folder:
+
 ```
 python scan.py              # next 24 hours
 python scan.py --hours 48   # next 48 hours
