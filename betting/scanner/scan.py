@@ -94,10 +94,34 @@ def betfair_client(cfg):
     return client
 
 
+def setup_app_key(cfg):
+    """Fetch (or create) the account's delayed app key and write it into config.ini."""
+    import re
+
+    client = betfair_client(cfg)  # login does not need a valid app key
+    apps = client.account.get_developer_app_keys(lightweight=True) or []
+    if not apps:
+        print("No app keys yet - creating them...")
+        apps = [client.account.create_developer_app_keys("goals-scanner", lightweight=True)]
+    delayed = [v for app in apps for v in app.get("appVersions", []) if v.get("delayData")]
+    if not delayed:
+        sys.exit("Could not find a delayed app key on this account. Check developer.betfair.com.")
+    key = delayed[0]["applicationKey"]
+    if not delayed[0].get("active", True):
+        print("Note: Betfair shows this delayed key as inactive.")
+    path = os.path.join(HERE, "config.ini")
+    with open(path, encoding="utf-8") as f:
+        text = f.read()
+    text = re.sub(r"(?m)^app_key\s*=.*$", "app_key = " + key, text)
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(text)
+    print("Delayed app key saved to config.ini. Now run: python scan.py")
+
+
 def fetch_markets(client, hours):
     from betfairlightweight import filters
 
-    now = dt.datetime.utcnow()
+    now = dt.datetime.now(dt.timezone.utc)
     mfilter = filters.market_filter(
         event_type_ids=["1"],  # football
         market_type_codes=list(MARKETS),
@@ -141,7 +165,13 @@ def scan(cfg, hours):
     teams = load_teams(os.path.join(HERE, cfg["files"].get("teams_csv", "teams.csv")))
 
     client = betfair_client(cfg)
-    catalogue, books = fetch_markets(client, hours)
+    try:
+        catalogue, books = fetch_markets(client, hours)
+    except Exception as e:  # turn Betfair's long error dump into a clear message
+        if "INVALID_APP_KEY" in str(e):
+            sys.exit("Betfair says the app_key in config.ini is not valid.\n"
+                     "Run:  python scan.py --setup-key   to fetch your delayed key automatically.")
+        raise
     print(f"Fetched {len(catalogue)} over/under markets.\n")
 
     rows, skipped = [], set()
@@ -240,8 +270,11 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser(description="Read-only Betfair goals value scanner")
     ap.add_argument("--hours", type=int, default=24, help="look this many hours ahead (default 24)")
     ap.add_argument("--selftest", action="store_true", help="check the model maths without logging in")
+    ap.add_argument("--setup-key", action="store_true", help="fetch your delayed app key and save it to config.ini")
     args = ap.parse_args()
     if args.selftest:
         selftest()
+    elif args.setup_key:
+        setup_app_key(load_config())
     else:
         scan(load_config(), args.hours)

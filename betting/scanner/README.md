@@ -19,6 +19,8 @@ rates every line with our goals model, and prints the bets that pass the rules
 5. **Create your settings file**: copy `config.example.ini` to `config.ini` and fill in
    your Betfair username and your **delayed** app key. Your password is not stored;
    the scanner asks for it each run. `config.ini` is never uploaded to GitHub.
+   If you don't have the key (or the Betfair Demo Tool won't work), run
+   `python scan.py --setup-key`: it logs in, fetches your delayed key and saves it for you.
 6. **Check the model works** (no login needed):
    ```
    python scan.py --selftest
