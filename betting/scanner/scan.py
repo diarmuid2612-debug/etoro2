@@ -147,7 +147,8 @@ def fetch_markets(client, hours):
     )
     catalogue = client.betting.list_market_catalogue(
         filter=mfilter,
-        market_projection=["EVENT", "COMPETITION", "RUNNER_DESCRIPTION", "MARKET_START_TIME", "MARKET_DESCRIPTION"],
+        # Zero-weight projections only, so 1000 markets stay inside Betfair's data limit.
+        market_projection=["EVENT", "COMPETITION", "RUNNER_DESCRIPTION", "MARKET_START_TIME"],
         max_results=1000,
         sort="FIRST_TO_START",
     )
@@ -161,6 +162,15 @@ def fetch_markets(client, hours):
         for b in chunk:
             books[b.market_id] = b
     return catalogue, books
+
+
+def market_line(market_name):
+    """'Over/Under 2.5 Goals' -> 2.5 (None if not one of our lines)."""
+    import re
+
+    found = re.search(r"(\d)\.5", market_name or "")
+    line = float(found.group(0)) if found else None
+    return line if line in MARKETS.values() else None
 
 
 def best_back(runner_book):
@@ -205,7 +215,7 @@ def scan(cfg, hours):
             continue
         hxg, axg = expected_goals((h["played"], h["gf"], h["ga"]), (a["played"], a["gf"], a["ga"]),
                                   h["league_avg"], shrink, home_adv)
-        line = MARKETS[m.description.market_type] if m.description else None
+        line = market_line(m.market_name)
         book = books.get(m.market_id)
         if line is None or book is None:
             continue
