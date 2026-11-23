@@ -97,12 +97,27 @@ def betfair_client(cfg):
 def setup_app_key(cfg):
     """Fetch (or create) the account's delayed app key and write it into config.ini."""
     import re
+    import requests
 
     client = betfair_client(cfg)  # login does not need a valid app key
-    apps = client.account.get_developer_app_keys(lightweight=True) or []
+
+    def account_call(method, params):
+        # The app-key operations only need the session token (no X-Application header).
+        resp = requests.post(
+            "https://api.betfair.com/exchange/account/json-rpc/v1",
+            json={"jsonrpc": "2.0", "method": "AccountAPING/v1.0/" + method, "params": params, "id": 1},
+            headers={"X-Authentication": client.session_token, "Content-Type": "application/json"},
+            timeout=30,
+        )
+        data = resp.json()
+        if "error" in data:
+            sys.exit(f"Betfair refused {method}: {data['error']}")
+        return data["result"]
+
+    apps = account_call("getDeveloperAppKeys", {}) or []
     if not apps:
         print("No app keys yet - creating them...")
-        apps = [client.account.create_developer_app_keys("goals-scanner", lightweight=True)]
+        apps = [account_call("createDeveloperAppKeys", {"appName": "goals-scanner"})]
     delayed = [v for app in apps for v in app.get("appVersions", []) if v.get("delayData")]
     if not delayed:
         sys.exit("Could not find a delayed app key on this account. Check developer.betfair.com.")
