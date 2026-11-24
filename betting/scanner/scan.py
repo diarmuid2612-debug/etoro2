@@ -201,6 +201,11 @@ def scan(cfg, hours):
     gap_warning = float(rules.get("gap_warning_points", 15))
     commission = float(rules.get("commission", 0.05))
     teams = load_teams(os.path.join(HERE, cfg["files"].get("teams_csv", "teams.csv")))
+    # Champions League games use each team's Champions League record (small samples,
+    # so they are pulled harder toward the competition average).
+    cl_path = os.path.join(HERE, cfg["files"].get("cl_teams_csv", "teams_cl.csv"))
+    cl_teams = load_teams(cl_path) if os.path.exists(cl_path) else {}
+    cl_shrink = float(rules.get("cl_shrink", 0.5))
 
     client = betfair_client(cfg)
     try:
@@ -218,16 +223,19 @@ def scan(cfg, hours):
         if " v " not in event:
             continue
         home_name, away_name = [s.strip() for s in event.split(" v ", 1)]
-        hk, ak = find_team(home_name, teams), find_team(away_name, teams)
+        competition = m.competition.name if m.competition else ""
+        is_cl = "champions league" in competition.lower() and "women" not in competition.lower()
+        table, game_shrink = (cl_teams, cl_shrink) if is_cl else (teams, shrink)
+        hk, ak = find_team(home_name, table), find_team(away_name, table)
         if not hk or not ak:
             skipped.add(f"{event} (no data for {home_name if not hk else away_name})")
             continue
-        h, a = teams[hk], teams[ak]
+        h, a = table[hk], table[ak]
         if h["league"] != a["league"]:
             skipped.add(f"{event} (different leagues - rate manually)")
             continue
         hxg, axg = expected_goals((h["played"], h["gf"], h["ga"]), (a["played"], a["gf"], a["ga"]),
-                                  h["league_avg"], shrink, home_adv)
+                                  h["league_avg"], game_shrink, home_adv)
         line = market_line(m.market_name)
         book = books.get(m.market_id)
         if line is None or book is None:
