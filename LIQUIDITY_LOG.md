@@ -41,6 +41,10 @@ Proxy history (excess = 6m annualised flow − nominal GDP YoY): +0.43 (22 Jul),
 (12 Aug), −2.19 (2 Sep), −2.46 (23 Sep), −2.91 (30 Sep), −2.99 (7 Oct, low), −2.78 (14 Oct),
 −1.19 (21 Oct). YoY growth of the proxy: 3.6% (Aug) → 5.2% (Oct), close to GMI's 4.9%.
 
+Morning chart (24 Nov 2026, account holder's request): `tools/liquidity_chart.sh <out dir>` downloads the
+FRED series and renders a 4-panel PNG (proxy + BTC, excess liquidity, 2s10s + HY spread, broad dollar
+DTWEXBGS, which is not DXY). Scheduled weekdays 07:55 Irish.
+
 ## Log
 
 | Week of | Excess liq. (ours) | GMI reading | DXY | 2s10s | HY spread | BTC ETF flows | Oil | Verdict |
