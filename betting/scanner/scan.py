@@ -199,6 +199,10 @@ def scan(cfg, hours):
     min_price = float(rules.get("min_price", 1.65))
     value_line = float(rules.get("value_threshold", 1.15))
     gap_warning = float(rules.get("gap_warning_points", 15))
+    # How much to trust the market's price vs our model when judging value. Our simple model
+    # overshoots on extreme matchups (Monza v Fiorentina: model 68%, market 39%, actual xG ~44%),
+    # so value is judged on a blend that leans toward the market.
+    market_weight = float(rules.get("market_weight", 0.7))
     commission = float(rules.get("commission", 0.05))
     teams = load_teams(os.path.join(HERE, cfg["files"].get("teams_csv", "teams.csv")))
     # Champions League games use each team's Champions League record (small samples,
@@ -251,8 +255,12 @@ def scan(cfg, hours):
                 continue
             chance = line_chance(hxg + axg, line, side)
             market_chance = 1 / price
-            value = chance * (1 + (price - 1) * (1 - commission))  # after commission
-            needed = max(min_price, value_line / chance) if chance > 0 else None
+            payout = lambda p: 1 + (p - 1) * (1 - commission)  # after commission
+            blended = lambda p: (1 - market_weight) * chance + market_weight / p
+            value = blended(price) * payout(price)
+            # lowest price at which the blended value reaches the value line
+            needed = next((p / 100 for p in range(101, 5001) if blended(p / 100) * payout(p / 100) >= value_line), 50.0)
+            needed = max(min_price, needed)
             gap = (chance - market_chance) * 100
             rows.append({
                 "kickoff": m.market_start_time.strftime("%a %H:%M"),
