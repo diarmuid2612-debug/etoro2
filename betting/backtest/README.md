@@ -31,3 +31,12 @@ Time-weighted attack/defence ratings fitted to the last ~500 days of results per
   (log-loss 0.691 vs 0.671, 0.608 vs 0.589, 0.414 vs 0.400); blending does not beat the market.
 
 Conclusion: results-based goals models do not beat Betfair/Pinnacle over/under prices in these leagues.
+
+## Away-favourite angle (away_fav.py, run 25 Nov 2026)
+
+Games where the away team is the betting favourite. Backing every Over 2.5 at Betfair:
+-3.0% ROI over 1,367 games (all games: -5.1%); goal rates match the market-implied rates.
+Bundesliga away favourites were positive on Pinnacle prices in both periods (+1.9% over 312 games,
++5.7% over 141) but the sample is small, it was picked out of seven leagues, and Betfair commission
+would take most of it. France looked positive recently but was -8.2% in the older seasons (noise).
+Status: no proven edge; Bundesliga away-favourite overs kept as a paper-tracked idea.
