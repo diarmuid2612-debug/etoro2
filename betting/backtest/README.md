@@ -48,3 +48,12 @@ League table rebuilt before every match (from matchday 7). Away team 5+ places h
 4+ and 5+ goal rates exactly match the market (29% v 29%, 15% v 15%). Worse as the gap grows
 (8+: -5.0%, 10+: -7.0%). Unders close to break-even but inconsistent between periods.
 No league is positive at Betfair after commission in both periods. Status: no edge.
+
+## What 4+ goal games have in common (explore4.py, run 25 Nov 2026)
+
+10,535 games (matchday 7+). 4+ goals in 29.9%. Strongest pre-match signs: high market over-2.5
+price, both attacks scoring 1.6+ per game (38.9%), a big favourite (40.8%), both teams top-4 (38.0%),
+Bundesliga (39.2%), Eredivisie (36.8%), May (35.2%). In every pre-match group the actual rate matched
+the market-implied rate within noise. Weak leads to paper-track: Bundesliga (+3.4 pts vs market),
+Championship (-2.0 pts, i.e. unders), lunchtime kick-offs (+2.1 pts), both top-4 (+3.2 pts).
+Only in-game shots on target separates them clearly (52.5% vs market 32.9%), which is not known pre-match.
