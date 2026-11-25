@@ -19,3 +19,15 @@ Data URL pattern: `https://football-data.co.uk/mmz4281/<season>/<league>.csv`
   (log-loss 0.587 vs 0.607 for 4+, 0.399 vs 0.414 for 5+). The model overshoots at the top end:
   when it says 60-70% for 4+ goals, it happens 48%; when it says 40-50% for 5+ goals, it happens 25%.
   Blending with the market does not beat the market alone.
+
+## v2 model (backtest_v2.py, run 25 Nov 2026)
+
+Time-weighted attack/defence ratings fitted to the last ~500 days of results per league
+(last season carried over, home advantage per league), refitted before every matchday.
+
+- **Test A:** still loses in every setting; best was -2.1% ROI over 697 bets (model only,
+  value >= 1.15). Expected win rate 60%, actual 48%.
+- **Test B:** still less accurate than the closing market for 3+, 4+ and 5+ goals
+  (log-loss 0.691 vs 0.671, 0.608 vs 0.589, 0.414 vs 0.400); blending does not beat the market.
+
+Conclusion: results-based goals models do not beat Betfair/Pinnacle over/under prices in these leagues.
