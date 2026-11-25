@@ -209,7 +209,7 @@ def scan(cfg, hours):
     # so they are pulled harder toward the competition average).
     cl_path = os.path.join(HERE, cfg["files"].get("cl_teams_csv", "teams_cl.csv"))
     cl_teams = load_teams(cl_path) if os.path.exists(cl_path) else {}
-    cl_shrink = float(rules.get("cl_shrink", 0.5))
+    cl_shrink = float(rules.get("cl_shrink", 0.35))
 
     client = betfair_client(cfg)
     try:
