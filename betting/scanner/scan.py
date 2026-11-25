@@ -284,18 +284,20 @@ def scan(cfg, hours):
 def report(rows, skipped, cfg):
     rows.sort(key=lambda r: r["value"], reverse=True)
     passing = [r for r in rows if r["pass"]]
-    print("=== BETS THAT PASS THE RULES (best first) ===")
+    # Printed in reverse order of importance so the passing bets end up right above
+    # "Press any key", visible without scrolling.
+    if skipped:
+        print(f"Not rated ({len(skipped)}): " + "; ".join(sorted(skipped)[:15]) + (" ..." if len(skipped) > 15 else ""))
+    print("\nTop 10 near-misses (back at these prices or better):")
+    for r in [r for r in rows if not r["pass"]][:10]:
+        print(f"{r['kickoff']}  {r['match']:<34} {r['bet']:<10} now {r['price']:<5} -> back at {r['back_at']:.2f}")
+    print(f"\n=== BETS THAT PASS THE RULES ({len(passing)}, best first) ===")
     if not passing:
         print("None. No bet is the right bet today.")
     for r in passing:
         print(f"{r['kickoff']}  {r['match']:<34} {r['bet']:<10} @ {r['price']:<5} "
               f"(EUR {r['available']} avail)  model {r['model_chance']:.0%} vs market {r['market_chance']:.0%}  "
               f"value {r['value']:.2f}  {r['warning']} {'[estimated data]' if r['estimated'] else ''}")
-    print("\nTop 10 near-misses (back at these prices or better):")
-    for r in [r for r in rows if not r["pass"]][:10]:
-        print(f"{r['kickoff']}  {r['match']:<34} {r['bet']:<10} now {r['price']:<5} -> back at {r['back_at']:.2f}")
-    if skipped:
-        print(f"\nNot rated ({len(skipped)}): " + "; ".join(sorted(skipped)[:15]) + (" ..." if len(skipped) > 15 else ""))
     out_dir = os.path.join(HERE, "output")
     os.makedirs(out_dir, exist_ok=True)
     out = os.path.join(out_dir, f"scan_{dt.datetime.now():%Y%m%d_%H%M}.csv")
