@@ -40,3 +40,11 @@ Bundesliga away favourites were positive on Pinnacle prices in both periods (+1.
 +5.7% over 141) but the sample is small, it was picked out of seven leagues, and Betfair commission
 would take most of it. France looked positive recently but was -8.2% in the older seasons (noise).
 Status: no proven edge; Bundesliga away-favourite overs kept as a paper-tracked idea.
+
+## Position-gap angle (position_gap.py, run 25 Nov 2026)
+
+League table rebuilt before every match (from matchday 7). Away team 5+ places higher than the home team:
+3,681 games, backing every Over 2.5 = -4.4% at Pinnacle prices, -7.1% at Betfair after commission;
+4+ and 5+ goal rates exactly match the market (29% v 29%, 15% v 15%). Worse as the gap grows
+(8+: -5.0%, 10+: -7.0%). Unders close to break-even but inconsistent between periods.
+No league is positive at Betfair after commission in both periods. Status: no edge.
