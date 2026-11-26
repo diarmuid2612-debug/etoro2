@@ -20,7 +20,7 @@ import os
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-MARKETS = {"OVER_UNDER_25": 2.5, "OVER_UNDER_35": 3.5, "OVER_UNDER_45": 4.5}
+MARKETS = {"OVER_UNDER_15": 1.5, "OVER_UNDER_25": 2.5, "OVER_UNDER_35": 3.5, "OVER_UNDER_45": 4.5}
 BOOK_CHUNK = 40  # keeps each listMarketBook request under Betfair's data-weight limit
 
 
@@ -228,7 +228,9 @@ def scan(cfg, hours):
             continue
         home_name, away_name = [s.strip() for s in event.split(" v ", 1)]
         competition = m.competition.name if m.competition else ""
-        is_cl = "champions league" in competition.lower() and "women" not in competition.lower()
+        comp = competition.lower()
+        # European club competitions use each team's record in that competition (teams_cl.csv).
+        is_cl = any(c in comp for c in ("champions league", "europa league", "conference league")) and "women" not in comp
         table, game_shrink = (cl_teams, cl_shrink) if is_cl else (teams, shrink)
         hk, ak = find_team(home_name, table), find_team(away_name, table)
         if not hk or not ak:
@@ -291,6 +293,11 @@ def report(rows, skipped, cfg):
     print("\nTop 10 near-misses (back at these prices or better):")
     for r in [r for r in rows if not r["pass"]][:10]:
         print(f"{r['kickoff']}  {r['match']:<34} {r['bet']:<10} now {r['price']:<5} -> back at {r['back_at']:.2f}")
+    acca = sorted((r for r in rows if r["bet"] == "Over 1.5"), key=lambda r: -r["model_chance"])
+    if acca:
+        print("\nOver 1.5 lines for accas (study - model vs market, not value bets):")
+        for r in acca[:12]:
+            print(f"{r['kickoff']}  {r['match']:<34} Over 1.5  @ {r['price']:<5} model {r['model_chance']:.0%} vs market {r['market_chance']:.0%}")
     print(f"\n=== BETS THAT PASS THE RULES ({len(passing)}, best first) ===")
     if not passing:
         print("None. No bet is the right bet today.")
