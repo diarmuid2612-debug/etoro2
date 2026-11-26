@@ -150,21 +150,29 @@ def fetch_markets(client, hours):
     from betfairlightweight import filters
 
     now = dt.datetime.now(dt.timezone.utc)
-    mfilter = filters.market_filter(
-        event_type_ids=["1"],  # football
-        market_type_codes=list(MARKETS),
-        market_start_time={
-            "from": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
-            "to": (now + dt.timedelta(hours=hours)).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        },
-    )
-    catalogue = client.betting.list_market_catalogue(
-        filter=mfilter,
-        # Zero-weight projections only, so 1000 markets stay inside Betfair's data limit.
-        market_projection=["EVENT", "COMPETITION", "RUNNER_DESCRIPTION", "MARKET_START_TIME"],
-        max_results=1000,
-        sort="FIRST_TO_START",
-    )
+    # Betfair returns at most 1000 markets per request, so ask per goal line and per 12-hour window.
+    catalogue, seen = [], set()
+    start = now
+    while start < now + dt.timedelta(hours=hours):
+        end = min(start + dt.timedelta(hours=12), now + dt.timedelta(hours=hours))
+        for market_type in MARKETS:
+            mfilter = filters.market_filter(
+                event_type_ids=["1"],  # football
+                market_type_codes=[market_type],
+                market_start_time={"from": start.strftime("%Y-%m-%dT%H:%M:%SZ"),
+                                   "to": end.strftime("%Y-%m-%dT%H:%M:%SZ")},
+            )
+            for m in client.betting.list_market_catalogue(
+                filter=mfilter,
+                # Zero-weight projections only, so 1000 markets stay inside Betfair's data limit.
+                market_projection=["EVENT", "COMPETITION", "RUNNER_DESCRIPTION", "MARKET_START_TIME"],
+                max_results=1000,
+                sort="FIRST_TO_START",
+            ):
+                if m.market_id not in seen:
+                    seen.add(m.market_id)
+                    catalogue.append(m)
+        start = end
     books = {}
     ids = [m.market_id for m in catalogue]
     for i in range(0, len(ids), BOOK_CHUNK):
