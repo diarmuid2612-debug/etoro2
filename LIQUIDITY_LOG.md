@@ -130,3 +130,19 @@ back above 102, the 2-year pushes higher. Then conditions re-tighten and the bas
   trigger, and just through the 15 Nov swing low (61,979). Five 1x positions, $890.81 in, **−$95.16**.
   No BTC orders pending. Overnight 19–20 Nov risk-off: Nasdaq 26,199, gold −4.5% to 3,514.
 - Verdict: liquidity still tightening, 0 of 5 green. No 'trend has turned' add.
+
+### 27 Nov 2026 (weekly) — turn checklist 0 of 5 (one improving)
+- Excess liquidity **−2.25pp** (18 Nov; proxy 25,958bn, YoY 5.80%, 6m ann 3.77%): worse than −1.62 on 11 Nov
+  (revised; the 20 Nov reading of −2.50 used older bank-credit data). The Fed H.4.1 for 25 Nov is not on
+  FRED yet (Thanksgiving delay), so this is a week old. Not turning up.
+- DXY (eToro USDOLLAR) **103.47** (104.19 high on 23 Nov): above 102, far from 100. 2-year 4.63 vs fed funds
+  3.88 = **+75bp** (from +92: improving, still far from 0). 2s10s **24bp** (flatter, 28 last week).
+  HY spread **3.72%** (from 3.47%: widening, under 4%). FCI, BTC ETF flows, Dec FOMC odds: not fetched.
+- BTC **61,688**: ~9% under the 200-week average (estimate ~67,700 from the 14 Nov ~67,300 + ~200/week; not
+  recomputed), under 72,049 and 80,300. This week's low **57,210** wicked under Coutts' 58,562 June low
+  (the weekly close on Sunday decides). Six 1x positions, $1,040.79 in, **−$91.09**. MIT 1650960500 ($99.50
+  at 54,000) pending.
+- Markets: a sharp risk-on reversal from 25 Nov evening (Nasdaq +5.6% from 24,974, gold and oil up); cause
+  not checked.
+- Verdict: liquidity still tightening (excess falling, dollar high, curve flat, credit widening); 0 of 5.
+  No 'trend has turned' add.
